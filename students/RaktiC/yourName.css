@@ -1,0 +1,20 @@
+body {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #B791DF; /* purple */
+}
+
+section {
+  margin: 0 auto;
+  width: 850px;
+}
+
+footer {
+  position: fixed;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  padding: 15px;
+  background-color: #FFFFFF;
+}
