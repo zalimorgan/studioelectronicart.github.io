@@ -1,20 +1,24 @@
 body {
-  margin: 0 auto;
+  margin: 25px auto;
   height: 100%;
-  background-color: #FA8C49; /* white */
+  padding: 25px;
+  background-color:#2E1D11;
+  color: antiquewhite;
+  text-align: center
 }
 
 section {
   margin: 0 auto;
-  width: 850px;
+  text-align: center
 }
 
 footer {
   position: fixed;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif, "Monoton";
   bottom: 0;
   width: 100%;
   height: 10vh;
   padding: 15px;
-  background-color: #FA8C49;
+  background-color: #2E1D11;
+  text-align: left
 }
