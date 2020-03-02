@@ -1,25 +1,62 @@
 body {
   margin: 0 auto;
   height: 100%;	
-  background-color: #CCA0EF;
+  background-color: #292929;
 
 }
 
 header {
-	 font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 122px;
+	text-shadow: 4px 4px #FFFFFF;
+	text-align: center;
+	color: #292929;
+	
 }
+
+h1 {
+	text-align: center;
+	
+}
+
 
 section {
   margin: 0 auto;
   width: 850px;
 }
 
+a {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 22px;
+	text-shadow: 1px 1px #FFFFFF;
+	text-align: center;
+	color: #292929;
+	
+}
+
+#vlog1 {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 22px;
+	text-shadow: 1px 1px #FFFFFF;
+	text-align: center;
+}
+
+#vlog {
+	
+	align-content: center;	
+	background-color: #292929;
+	padding-left: 250px;
+	padding-top: 20px;
+	
+}
+
+
 footer {
   position: fixed;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
   bottom: 0;
   width: 100%;
   height: 10vh;
   padding: 15px;
-  background-color: #CCA0EF;
+  background-color: #292929;
 }
