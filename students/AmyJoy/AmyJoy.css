@@ -7,7 +7,7 @@ body {
 
 header {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	font-size: 122px;
+	font-size: 69px;
 	text-shadow: 4px 4px #FFFFFF;
 	text-align: center;
 	color: #292929;
@@ -17,6 +17,14 @@ header {
 h1 {
 	text-align: center;
 	
+}
+
+#p01 {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 22px;
+	text-shadow: 1px 1px #FFFFFF;
+	text-align: center;
+	color: #292929;
 }
 
 
