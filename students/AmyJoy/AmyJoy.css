@@ -45,8 +45,10 @@ a {
 
 #vlog {
 	position: relative;	
-	right: 150px;
+	right: 25px;
 	bottom: 140px;
+	box-shadow: -120px -120px 400px 20px;
+	z-index: 10px;
 	
 }
 
