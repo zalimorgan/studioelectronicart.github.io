@@ -15,16 +15,9 @@ header {
 }
 
 h1 {
-	text-align: center;
+	position: relative;
+	top: -100px;
 	
-}
-
-#p01 {
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	font-size: 22px;
-	text-shadow: 1px 1px #FFFFFF;
-	text-align: center;
-	color: #292929;
 }
 
 
@@ -35,10 +28,11 @@ section {
 
 a {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	position: relative;
 	font-size: 22px;
-	text-shadow: 1px 1px #FFFFFF;
-	text-align: center;
+	text-shadow: 1px 1px #000000;
 	color: #292929;
+	top: -220px;
 	
 }
 
@@ -50,11 +44,19 @@ a {
 }
 
 #vlog {
+	position: relative;	
+	right: 150px;
+	bottom: 140px;
 	
-	align-content: center;	
-	background-color: #292929;
-	padding-top: 20px;
-	
+}
+
+#flyvid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 
@@ -65,5 +67,5 @@ footer {
   width: 100%;
   height: 10vh;
   padding: 15px;
-  background-color: #292929;
+  background-color: #1D1D1D;
 }
