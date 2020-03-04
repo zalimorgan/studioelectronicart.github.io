@@ -1,7 +1,30 @@
 body {
   margin: 0 auto;
   height: 100%;
-  background-color: #F65E2A; /* white */
+	background-image:url("Carlieimage02.png");
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	
+}
+
+div{
+		width: 100px;
+	border: #BF0B98 50px;
+	padding-top: 150px;
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+
+	image { 
+		align-content: center;
+		width:500px;
+	height:500px;
+		
+}
+
+#textposts {
+	
 }
 
 section {
@@ -11,10 +34,15 @@ section {
 
 footer {
   position: fixed;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
   bottom: 0;
   width: 100%;
   height: 10vh;
   padding: 15px;
   background-color: #FFFFFF;
+}
+Head {
+		font: small-caps;
+	font-size: 20pt;
+	
 }
