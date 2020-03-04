@@ -9,6 +9,13 @@ section {
   width: 850px;
 }
 
+
+#Raktibooon {
+	background-color: #F5F4D2;
+color: #C4B161;
+border: 5px solid #eebaee;
+}
+
 footer {
   position: fixed;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
