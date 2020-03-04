@@ -1,12 +1,23 @@
 body {
   margin: 0 auto;
   height: 100%;
-  background-color: #FFFBD1; /* white */
+  background-color: #376D48; /* white */
 }
 
 section {
   margin: 0 auto;
   width: 850px;
+}
+
+#vlog{
+	color:#648CB4;
+	
+}
+
+#ihavenoidea{
+	background-color: #5181C9;
+	color:#FFFFFF;
+	border: 5px solid #FFFFFF;
 }
 
 footer {
