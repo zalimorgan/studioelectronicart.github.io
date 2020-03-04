@@ -9,6 +9,12 @@ section {
   width: 850px;
 }
 
+#amyscoolsection {
+	backgroun-color: #b8fafa;
+	color: aquamarine;
+	border: 5px dotted #7535C4;
+}
+
 footer {
   position: fixed;
   font-family: "Comic Sans MS", cursive, sans-serif;
