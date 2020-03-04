@@ -18,3 +18,12 @@ footer {
   padding: 15px;
   background-color: #FFFFFF;
 }
+#archiveindex {
+	background-color: #FFF891;
+	color: #EF9EAF;
+	border: 30px solid #80CDFF;
+}
+.fancyparagraph {
+	font-family: "comic sans ms", cursive, sans-serif;
+	color:magenta;
+}
