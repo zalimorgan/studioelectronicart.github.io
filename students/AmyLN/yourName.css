@@ -9,6 +9,12 @@ section {
   width: 850px;
 }
 
+#theihavenoideasection	{
+	background-colour: #b8fafa;
+	color: #fab7b7;
+	border: 5px solid #eebaee;
+}
+
 footer {
   position: fixed;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
