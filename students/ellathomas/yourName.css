@@ -9,6 +9,12 @@ section {
   width: 850px;
 }
 
+#newsection {
+	background-colour: #b8fafa;
+	color: #0066AB;
+    border: 5px solid #0066AB;
+}
+
 footer {
   position: fixed;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
