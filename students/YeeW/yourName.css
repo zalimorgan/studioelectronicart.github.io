@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   height: 100%;
-  background-color: #8CA3BA; /* white */
+  background-color: #91945F; /* white */
 }
 
 section {
@@ -9,6 +9,12 @@ section {
   width: 850px;
 }
 
+#Yeeeeesection {
+	background-color: #864D12;
+	color: #EAEAEB;
+	border: 5px solid #FFEFEF;
+}
+	
 footer {
   position: fixed;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
