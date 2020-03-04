@@ -1,13 +1,21 @@
 body {
   margin: 0 auto;
   height: 100%;
-  background-color: #FFFFFF; /* white */
+  background-color: black; /* white */
 }
 
 section {
   margin: 0 auto;
   width: 850px;
 }
+
+#confessions {
+	background-color: blue;
+	color: red;
+	border: 5px groove #1900FF;
+}
+
+
 
 footer {
   position: fixed;
