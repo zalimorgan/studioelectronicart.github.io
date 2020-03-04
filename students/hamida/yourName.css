@@ -14,7 +14,12 @@ footer {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   bottom: 0;
   width: 100%;
-  height: 10vh;
-  padding: 15px;
-  background-color: #FFFFFF;
+  height:1vh;
+  padding: 0px;
+  background-color: #CC9BBB;
+}
+#coolstuff {
+	background-color: #b8fafa;
+	color: #0F0A00;
+	border: 5px solid #7FA7DB;
 }
