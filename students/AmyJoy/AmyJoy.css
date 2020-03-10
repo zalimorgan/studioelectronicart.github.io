@@ -27,20 +27,31 @@ section {
 }
 
 a {
+	color: #292929;
+	text-shadow: 1px 1px #FFFFFF;
+}
+
+#ithink {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 22px;
+	text-shadow: 1px 1px #FFFFFF;
+	text-align: center;
 	position: relative;
 	font-size: 22px;
-	text-shadow: 1px 1px #000000;
 	color: #292929;
-	top: -170px;
-	
+	top: -100px;
 }
+
 
 #vlog1 {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	font-size: 22px;
 	text-shadow: 1px 1px #FFFFFF;
 	text-align: center;
+	position: relative;
+	font-size: 22px;
+	color: #292929;
+	top: -170px;
 }
 
 #vlog {
@@ -57,6 +68,31 @@ a {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
+}
+
+#me1 {
+	position: fixed;
+	top: 272px;
+	left: 500px
+
+}
+
+#me2 {
+	position: fixed;
+	top: 272px;
+	left: 900px;
+}
+
+#me3 {
+	position: fixed;
+	top: 272px;
+	left: 1300px;
+}
+
+#me4 {
+	position: fixed;
+	top: 272px;
+	left: 1700px;
 }
 
 
