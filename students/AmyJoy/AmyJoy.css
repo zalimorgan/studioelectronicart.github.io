@@ -42,6 +42,17 @@ a {
 	top: -100px;
 }
 
+#fetch {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 22px;
+	text-shadow: 1px 1px #FFFFFF;
+	text-align: center;
+	position: relative;
+	font-size: 22px;
+	color: #292929;
+	top: -30px;
+}
+
 
 #vlog1 {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
