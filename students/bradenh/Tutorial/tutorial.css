@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  font-family: "comic sans ms", "coming-soon", sans-serif;
+  margin: 25px auto;
+  height: 100%;
+  padding: 25px;
+  background-color: #FF0000;
+  text-align: center
+}
+
+.comic {
+	font-family: "coming-soon";
+	color: #000000
+}
+
+section {
+  margin: 0 auto;
+  text-align: center
+}
+
+footer {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif, "Monoton";
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  padding: 15px;
+  font-size: 7pt;
+  color: antiquewhite;
+  text-align: left
+}
