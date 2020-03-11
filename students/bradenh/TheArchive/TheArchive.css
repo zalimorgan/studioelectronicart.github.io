@@ -2,7 +2,7 @@ body {
   margin: 25px auto;
   height: 100%;
   padding: 25px;
-  background-color:#2E1D11;
+  background-color:#FFFFFF;
   color: antiquewhite;
   text-align: center
 }
@@ -38,4 +38,15 @@ column {
 column img {
   margin-top: 8px;
   vertical-align: middle;
+}
+
+footer {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif, "Monoton";
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  padding: 15px;
+  font-size: 7pt;
+  color: black;
+  text-align: left
 }
