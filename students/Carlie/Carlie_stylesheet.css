@@ -1,41 +1,65 @@
 body {
-  margin-top: 10% auto;
-	height: 100%;
-	background-image: url("Carlieimage02.png");
+  margin-top: 20% auto;
+	height: 80%;
+	background-color:#01E01D;	
 	background-repeat: repeat-x;
 	border-style:solid;
 	border-width: 10px;
 	border-color: #F32FFF;
-	padding-top: 150px;
-	padding-left: 50px;
-	padding-right: 100px;
-	padding-bottom: 50px;
 	align-content: left;
+	padding-top: 10px;
+	font-size: 60PX;
+	font-style:normal;
+	font-family: 'Gill Sans', 'Gill Sans MT';
+	mix-blend-mode: difference;
+	font: "#f6600";
+	colour:black;
+}
+
+vlog {
+	align-content: center;
+	align-self: center;
 	
 }
 
+.homepagehead {
+	background-image: repeating-linear-gradient;
+	border: #00FFF9;
+	border-style:solid;
+	border-width:medium;
+	padding: 1%;
+	align-self: center;
+	align-content: center;
+	background-blend-mode: difference;
+	text-align:center;
+	position:relative;
+}
 
-	image { 
+.headtext{
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.image { 
 		align-content: left;
 		width:500px;
-	height:500px;
-		
-}
-
-#textposts {
-	border-style:dashed;
-	border-width: 10px;
-	border-color: #A9F513;
-	
-	
-	text-align:left;
+		height:500px;
 }
 
 section {
   margin: 0 auto;
   width: 850px;
+	height: 850px;
+	
 }
-
+Head {
+	
+	border-style: solid;
+	border-width:25px;
+		
+}
 footer {
   position: fixed;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -44,13 +68,4 @@ footer {
   height: 10vh;
   padding: 15px;
   background-color: #FFFFFF;
-}
-Head {
-	font: small-caps;
-	font-size: 20pt;
-	align: center;
-	border-style: solid;
-	border-width:25px;
-	
-	
 }
