@@ -1,38 +1,40 @@
 body {
   margin-top: 20% auto;
 	height: 80%;
-	background-color:#01E01D;	
+	background-color:#01E01D;
 	background-repeat: repeat-x;
 	border-style:solid;
 	border-width: 10px;
 	border-color: #F32FFF;
 	align-content: left;
 	padding-top: 10px;
-	font-size: 60PX;
+	font-size: 30PX;
 	font-style:normal;
 	font-family: 'Gill Sans', 'Gill Sans MT';
-	mix-blend-mode: difference;
-	font: "#f6600";
-	colour:black;
+  color: #8709fb;
 }
 
 vlog {
 	align-content: center;
 	align-self: center;
-	
+
+}
+#signoff {
+  text-align: right;
+  padding-right: 30%;
+  position:relative;
+  font-size: 40px;
 }
 
 .homepagehead {
 	background-image: repeating-linear-gradient;
-	border: #00FFF9;
-	border-style:solid;
-	border-width:medium;
 	padding: 1%;
 	align-self: center;
 	align-content: center;
-	background-blend-mode: difference;
+	mix-blend-mode: difference;
 	text-align:center;
 	position:relative;
+  font-size: 60px;
 }
 
 .headtext{
@@ -42,7 +44,7 @@ vlog {
 	transform: translate(-50%,-50%);
 }
 
-.image { 
+.image {
 		align-content: left;
 		width:500px;
 		height:500px;
@@ -52,13 +54,13 @@ section {
   margin: 0 auto;
   width: 850px;
 	height: 850px;
-	
+
 }
 Head {
-	
+
 	border-style: solid;
 	border-width:25px;
-		
+
 }
 footer {
   position: fixed;
