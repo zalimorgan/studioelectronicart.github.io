@@ -16,14 +16,15 @@ section {
 	color: #000000;
 	border: 3px groove #AF00FF;
 }
+
 header {
     font-family: "Arial", cursive, sans-serif;
     color: : #af00ff;
     width: 500px;
-margin-left: 250px;
-margin-right: 50px;
-margin-bottom: 100px;
-padding-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
     border: 5px groove #AF00FF;
 
 
