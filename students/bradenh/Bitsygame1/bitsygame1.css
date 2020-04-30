@@ -1,0 +1,34 @@
+body {
+  margin: 25px auto;
+  height: 100%;
+  padding: 25px;
+  background-color:#2E1D11;
+  color: antiquewhite;
+  text-align: center
+}
+
+section {
+  margin: 0 auto;
+  text-align: center
+}
+
+footer {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif, "Monoton";
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  font-size: 7.5pt;
+  color: white;
+  text-align: left
+}
+
+.wrapper {
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
