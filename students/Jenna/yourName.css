@@ -36,9 +36,10 @@ a{
 #nav {
   width: 160px;
   float: left;
-  background-color:#d2bbff;
+  background-color: #fabbff;
   text-align: center;
-  padding: 10px;
+  padding: px;
+  border:10px solid #b37fff;
 }
 #nav ul {
   list-style-type: none;
@@ -56,3 +57,4 @@ a{
   font-size: 10;
 
 }
+
