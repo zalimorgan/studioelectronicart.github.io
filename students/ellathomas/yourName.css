@@ -1,11 +1,11 @@
 body {
-  margin: 0 auto;
+  margin: 15 auto;
   height: 100%;
   background-color: #AACFF4; /* BLUE */
 }
 
 section {
-  margin: 0 auto;
+  margin: 25 auto;
   width: 850px;
 }
 
