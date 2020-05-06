@@ -6,33 +6,33 @@
   <!--update link with the name of your stylesheet and folder-->
   <link rel="stylesheet" href="RandomTest.css">
   <title>RandomTestx</title>
+
 </head>
 
-	
+
 <body>
 	<div class="wrapper">
 		<header>
 			<h1>This Is A Random Number Test</h1>
   		</header>
   		<section>
-			<p> I'm Trying to generate random youtube urls 
+			<p> I'm Trying to generate random youtube urls
 				<br>
-				We will see how this goes 
-			</p>	
+				We will see how this goes
+			</p>
 		</section>
-		
+
 		<div class="push"></div>
-		
+
 		<div class="random">
 			<section>
-				<script>
-				var characters='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-				var randomItem = characters[Math.floor(Math.random()*characters.length)];
-				document.body.innerHTML = randomItem;
-				</script> 
-					<!--script borrowed from https://css-tricks.com/snippets/javascript/select-random-item-array/ and https://www.geeksforgeeks.org/generate-random-string-of-given-size-in-java/ -->
+
+
 			</section>
 		</div>
+    <div id="specialDiv">
+      <br>
+    </div>
 		<br>
 		<br>
 		<br>
@@ -41,10 +41,16 @@
 		<footer class="footer">
 <!-- do not remove this footer. You may change style/formatting (e.g. padding,font face, colour) in your CSS file but it must remain fixed at the bottom of the page, and contain the same text. It must appear on all pages of your personal site.-->
 	 		<p>
-			Disclaimer regarding work from external sources: 
+			Disclaimer regarding work from external sources:
 				<br>
       This student work has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author. All copyright material used remains copyright of the respective owners and has been used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No part of this work may be reproduced without consent of the original copyright owners. See code comments for references.
 		 	</p>
 	 	</footer>
+    <script>
+    var characters='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var randomItem = characters[Math.floor(Math.random()*characters.length)];
+    document.getElementById("specialDiv").innerText = randomItem;
+    </script>
+    <!--script borrowed from https://css-tricks.com/snippets/javascript/select-random-item-array/ and https://www.geeksforgeeks.org/generate-random-string-of-given-size-in-java/ -->
 	</body>
 </html>
