@@ -75,14 +75,17 @@ a{
 
 
 
-
+#vlog {
+  padding-top: 5px
+}
 
 
 
 #imagelist {
   font-size:0;
-  width:261px;
+  width:400px;
   margin:0 auto;
+
 }
 #imagelist a {
   margin: 2px;
