@@ -32,3 +32,8 @@ footer {
 .push {
   height: 50px;
 }
+
+.random {
+	 margin: 0 auto;
+  text-align: center
+}
