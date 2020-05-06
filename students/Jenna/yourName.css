@@ -58,3 +58,25 @@ a{
 
 }
 
+
+
+
+
+
+
+
+
+#imagelist {
+  font-size:0;
+  width:261px;
+  margin:0 auto;
+}
+#imagelist a {
+  margin: 2px;
+  border: 4px solid;
+  display: inline-block;
+  border-radius: 10px
+}
+#imagelist a:hover {
+  border-color: white
+}
