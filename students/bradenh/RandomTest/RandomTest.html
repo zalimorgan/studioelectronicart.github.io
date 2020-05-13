@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--update link with the name of your stylesheet and folder-->
   <link rel="stylesheet" href="RandomTest.css">
-  <title>RandomTestx</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
+  <title>How Much?</title>
 
 </head>
 
@@ -13,12 +14,16 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<h1>This Is A Random Number Test</h1>
+			<h1>Art Machine: Finite Content</h1>
   		</header>
   		<section>
-			<p> I'm Trying to generate random youtube urls
+			<p> Every Youtube url contains a string on 11 characters. For example "dQw4w9WgXcQ" placed after "https://www.youtube.com/watch?v=" will take you to Rick Astley's 1987 hit "Never Gonna Give You Up". According to YouTube's own statistics, there are over 1 billion hours of content consumed on a daily basis. 
 				<br>
-				We will see how this goes
+			Those 11 characters pull from a pool of 63 total options. That means that there are 
+				<br>
+				3,558,497,368,608 
+				<br>
+				potential combinations for a YouTube link. 
 			</p>
 		</section>
 
@@ -26,7 +31,6 @@
 
 		<div class="random">
 			<section>
-
 
 			</section>
 		</div>
@@ -49,10 +53,21 @@
 	 	</footer>
 
     <script>
-    var characters='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    var randomItem = characters[Math.floor(Math.random()*characters.length)];
-    document.getElementById("specialDiv").innerText = randomItem;
+    	function makeurl(length) {	
+			var result = '';
+			var characters='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    		var charactersLength = characters.length;
+			for ( var i = 0; i < characters.length; i++) 
+				{result += characters.charAt(Math.floor(Math.random() * charactersLength));}
+			return result;
+		}
+			
+	
+	document.getElementById("specialDiv").innerText = (makeurl(11));
     </script>
-    <!--script borrowed from https://css-tricks.com/snippets/javascript/select-random-item-array/ and https://www.geeksforgeeks.org/generate-random-string-of-given-size-in-java/ -->
+    <!--script borrowed from https://css-tricks.com/snippets/javascript/select-random-item-array/ and https://www.geeksforgeeks.org/generate-random-string-of-given-size-in-java/
+    https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
+
+-->
 	</body>
 </html>

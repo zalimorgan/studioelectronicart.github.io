@@ -1,9 +1,10 @@
 body {
+  font-family: 'Oxanium', cursive;
   margin: 25px auto;
   height: 100%;
   padding: 25px;
-  background-color:#2E1D11;
-  color: antiquewhite;
+  background-color:#ff0000;
+  color: white;
   text-align: center
 }
 
@@ -13,7 +14,7 @@ section {
 }
 
 footer {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif, "Monoton";
+  font-family: "Arial";
   bottom: 0;
   width: 100%;
   height: 10vh;
@@ -36,8 +37,4 @@ footer {
 .random {
 	 margin: 0 auto;
   text-align: center
-}
-
-#specialDiv {
-  height: 100px;
 }
