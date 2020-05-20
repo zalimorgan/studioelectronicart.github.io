@@ -8,14 +8,11 @@
   <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@700&family=Oxanium&display=swap" rel="stylesheet">
   <script src="ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="RandomTest.js"></script>
-  
+
 	<script>
-	$(document).ready(function(){
-		$("iframe src "). replaceWith(). 
-	
-	});
+
 	</script>
-  
+
 	<title>How Much?</title>
 
 </head>
@@ -27,13 +24,13 @@
 			<h1>Art Machine: Finite Content</h1>
   		</header>
   		<section>
-			<p> Every YouTube url contains a string on 11 characters. For example "dQw4w9WgXcQ" placed after "https://www.youtube.com/watch?v=" will take you to Rick Astley's 1987 hit "Never Gonna Give You Up". According to YouTube's own statistics, there are over 1 billion hours of content consumed on a daily basis. 
+			<p> Every YouTube url contains a string on 11 characters. For example "dQw4w9WgXcQ" placed after "https://www.youtube.com/watch?v=" will take you to Rick Astley's 1987 hit "Never Gonna Give You Up". According to YouTube's own statistics, there are over 1 billion hours of content consumed on a daily basis.
 				<br>
-			Those 11 characters pull from a pool of 63 total options. That means that there are 
+			Those 11 characters pull from a pool of 63 total options. That means that there are
 				<br>
-				3,558,497,368,608 
+				3,558,497,368,608
 				<br>
-				potential combinations for a YouTube link. 
+				potential combinations for a YouTube link.
 			</p>
 		</section>
 
@@ -41,21 +38,21 @@
 			<section>
 			</section>
 		</div>
-	
+
 	<br>
-	
+
 	<div id="specialDiv1"></div>
-	
+
 	<div id="specialDiv2"></div>
-	
+
 	<br>
-		
+
 	<div class="embed">
 		<iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 <!--	<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-		
+
 		<br>
 		<br>
 		<br>
@@ -77,8 +74,8 @@
     		var charactersLength = characters.length;
 			for ( var i = 0; i < 11; i++)
 				{result += characters.charAt(Math.floor(Math.random() * charactersLength));}
-      		
-		   var myUrl = "https://www.youtube.com/embed/"; 
+
+		   var myUrl = "https://www.youtube.com/embed/";
 		   myUrl += result;
 		   myUrl += "?autoplay=1"
 		   return myUrl;
@@ -86,9 +83,9 @@
 // += "?autoplay=1"
 
 	  document.getElementById("specialDiv1").innerText = ();
-		
+
 	  document.getElementById("specialDiv2").innerText = (makeLink());
-	  
+
 	</script>
     <!--script borrowed from https://css-tricks.com/snippets/javascript/select-random-item-array/ and https://www.geeksforgeeks.org/generate-random-string-of-given-size-in-java/
     https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
