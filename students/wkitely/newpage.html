@@ -14,6 +14,52 @@
     <!--update with your name or homepage name-->
     <h1>CNTL_R</h1>
   </header>
+  $oImg = new Backgrounds ;
+echo $oImg -> successBg() ;
+
+
+<?php
+
+class Backgrounds
+{
+
+  public function __construct()
+  {
+  }
+
+  public function succesBg()
+  {  
+    $aImages = $this->_imageArrays( \constants\IMAGESTRUE, "images/true/") ; 
+    if(count($aImages)>1)
+    {
+      $iImage   = (int) array_rand( $aImages, 1 ) ;
+      return $aImages[$iImage] ;
+    }
+    else
+    {
+      throw new Exception("Image array " . $aImages . " is empty");
+    }
+  }
+
+
+  private function _imageArrays( $sDir='', $sImgpath='' )
+  {
+    if ($handle = @opendir($sDir)) 
+    {
+      $aReturn = (array) array() ;
+      while (false !== ($entry = readdir($handle))) 
+      {
+        if(file_exists($sDir . $entry) && $entry!="." && $entry !="..")
+        {
+          $aReturn[] = $sImgpath . $entry ;
+        }
+      }
+      return $aReturn ;
+    }
+    else
+    {
+      throw new Exception("Could not open directory" . $sDir . "'" );
+    }
 
   <section id="home">
     <!--update link with the name of your folder-->
