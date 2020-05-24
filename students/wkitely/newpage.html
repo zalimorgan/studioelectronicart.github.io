@@ -15,6 +15,17 @@
     <h1>CNTL_R</h1>
   </header>
 
+  <section>
+    window.onload = choosePic;
+
+var myPix = new Array("images/lion.jpg","images/tiger.jpg","images/bear.jpg");
+
+function choosePic() {
+     var randomNum = Math.floor(Math.random() * myPix.length);
+     document.getElementById("myPicture").src = myPix[randomNum];
+  
+  </section>
+  
   <section id="home">
     <!--update link with the name of your folder-->
     <a href="https://studioelectronicart.github.io/students/wkitely/willspage.html">home</a>
