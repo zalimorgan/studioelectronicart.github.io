@@ -28,11 +28,11 @@ return sin(t/10) * 100 + sin(t / 15) * 100;
 }
 
 Float x2(float t) {
-return sin(t/10) * 20 + sin(t/5) * 2;
+return sin(t/10) * 200 + sin(t/5) * 2;
 }
   
   Float y2(float t) {
-  return cos(t/10) * 220 + cos(t / 50) * 2;
+  return cos(t/10) * 20 + cos(t / 50) * 2;
 }
 
 // based on 1968 experiments in motion graphics https://archive.org/details/experimentsinmotiongraphics
