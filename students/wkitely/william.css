@@ -7,6 +7,17 @@ body {
 section {
   margin: 0 auto;
   width: 850px;
+	P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+	    
+	    P { text-align: center }
+H2 { text-align: center }
+}
+...
+<P class="blocktext">This rather...
+	
 }
 
 footer {
