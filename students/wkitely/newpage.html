@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script10.js"></script>
   <!--update link with the name of your stylesheet and folder-->
   <link rel="stylesheet" href="william.css">
   <title>Archive</title>
@@ -16,6 +17,12 @@
   </header>
 
   <section>
+     <img src="images/spacer.gif" width="305" height="312" id="myPicture" alt="some image">
+</body>
+</html>
+  </section>
+  
+  <secion>
     window.onload = choosePic;
 
 var myPix = new Array("images/lion.jpg","images/tiger.jpg","images/bear.jpg");
@@ -23,8 +30,7 @@ var myPix = new Array("images/lion.jpg","images/tiger.jpg","images/bear.jpg");
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
      document.getElementById("myPicture").src = myPix[randomNum];
-  
-  </section>
+    </section>
   
   <section id="home">
     <!--update link with the name of your folder-->
