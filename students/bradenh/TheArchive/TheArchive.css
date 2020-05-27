@@ -2,8 +2,8 @@ body {
   margin: 25px auto;
   height: 100%;
   padding: 25px;
-  background-color:#2E1D11;
-  color: antiquewhite;
+  background-color:white;
+  color: black;
   text-align: center
 }
 
@@ -25,27 +25,16 @@ footer {
 row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 2px;
 }
 
 /* Create two equal columns that sits next to each other */
 column {
   flex: 50%;
-  padding: 0 4px;
+  padding: 0 2px;
 }
 
 column img {
-  margin-top: 8px;
+  margin-top: 5px;
   vertical-align: middle;
-}
-
-.wrapper {
-  min-height: 100%;
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -50px;
-}
-.footer,
-.push {
-  height: 50px;
 }
