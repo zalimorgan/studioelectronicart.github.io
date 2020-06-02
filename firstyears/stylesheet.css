@@ -9,6 +9,8 @@ body {
 
 .pure-g {
   padding: 1em;
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 .pure-g > div {
@@ -25,6 +27,10 @@ body {
   text-align:center;
   background-color: #fff;
   border-radius: 15px;
+}
+
+.student-box-content {
+  margin: auto;
 }
 
 .nav-main {
