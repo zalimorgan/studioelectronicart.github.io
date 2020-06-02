@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body {
+  background-color: #ff9a73;
+}
 #main {
   margin: 0 auto;
 }
@@ -18,9 +20,11 @@
 }
 
 .student-box {
-  padding: 0.5em;
-  border: 1px solid #ff9a73;
+  padding: 1em;
+  border: 5px solid #ff9a73;
   text-align:center;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
 .nav-main {
@@ -47,4 +51,21 @@ a:hover{
 }
 a:active {
   text-decoration: underline;
+}
+
+.nav-main a:link {
+  color:#fff;
+  font-size: 1.5em;
+}
+.nav-main a:visited {
+  color:#fff;
+  font-size: 1.5em;
+}
+.nav-main a:hover {
+  color:#fff;
+  font-size: 1.5em;
+}
+.nav-main a:active {
+  color:#fff;
+  font-size: 1.5em;
 }
