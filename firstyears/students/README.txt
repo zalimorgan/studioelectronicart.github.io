@@ -6,6 +6,7 @@ lowercase is best.
 For your first upload, head inside /firstyears/students, then click 'Upload files'.
 Select your entire folder - not just its contents, and upload it.
 For the first upload, click 'create a new branch', then click propose changes.
+Then click 'Create pull request.'
 I will approve the changes.
 
 To update your work, head inside your own folder before uploading. When you upload
