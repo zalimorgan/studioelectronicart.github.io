@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	font-family: palatino;
+	font-size: 48px;
+}
+
+h2 {
+	font-family: palatino;
+	font-style: italic;
+	font-size: 32px;
+}
+
+h1 + h2 {margin-top: -20px;}
+
+h3 {
+	font-family: palatino;
+	font-size: 9px;
+	color: black;
+}
+
+h3 > a {
+	color: black;
+	text-decoration: none;
+}
+
+h4 {
+	font-family: palatino;
+	font-size: 32px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 9px;
+	line-height: 14.4px;
+}
+
+h4 + p {margin-top: -30px;}
+
+#title {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	align-items: baseline;
+	border-top: dotted;
+	border-bottom: dotted;
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	z-index: 1;
+}
+
+.menu > h3 {
+	transition-duration: 0.4s;
+	padding: 0vw 2vw 0vw 2vw;
+}
+
+.menu > h3:hover {
+	text-decoration: underline;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 78%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.container {
+	position: relative;
+	padding: 5px;
+}
+
+.image {
+	display: block;
+	width: 100%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	font-family: helvetica;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.explain {
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: justify;
+	width: 78%;
+}
+
+.bottomnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 78%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.button {
+	display: block;
+	border: solid;
+	text-align: center;
+	transition-duration: 0.4s;
+}
+
+.button > a {
+	display: block;
+	padding: 5px 10px;
+}
+
+.button > a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.button > a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.button > a:hover {
+	text-decoration: none;
+	color: white;
+	background: black;
+}
+
+.button > a:active {
+  	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (min-width: 400px) {
+	[class="menu"] h3 {
+		font-size: 12px;
+		text-align: center;
+		align-items: center;
+	}
+	
+	p {
+		font-size: 12px;
+		line-height: 19px;
+	}
+	
+	[class="bottomnav"] p {
+		font-size: 12px;
+		text-align: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	[class="menu"] h3 {
+		font-size: 15px;
+		text-align: center;
+		align-items: center;
+	}
+	
+	p {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	
+	[class="bottomnav"] p {
+		font-size: 15px;
+		text-align: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	[class="menu"] h3 {
+		font-size: 20px;
+		text-align: center;
+		align-items: center;
+	}
+	
+	p {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	
+	[class="bottomnav"] p {
+		font-size: 20px;
+		text-align: center;
+		align-items: center;
+	}
+}
