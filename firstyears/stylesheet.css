@@ -1,27 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/**.flex-grid-thirds {
-  display: flex;
-  jsutify-content: space-between;
-}
-
-@media (max-width: 400px) {
-  .flex-grid,
-  .flex-grid-thirds {
-    display: block;
-    .col {
-      width: 100%;
-      margin: 0 0 10px 0;
-    }
-  }
-}**/
 #main {
   margin: 0 auto;
 }
 
 .pure-g {
-
+  padding: 1em;
 }
 
 .pure-g > div {
@@ -35,9 +20,31 @@
 .student-box {
   padding: 0.5em;
   border: 1px solid #ff9a73;
+  text-align:center;
 }
 
 .nav-main {
   background-color: #ff9a73;
   padding: 1em;
+}
+
+h1 {
+  color: #FFF;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.56);
+  font-size: 3em;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
 }
