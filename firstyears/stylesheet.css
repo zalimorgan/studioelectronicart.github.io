@@ -1,3 +1,43 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/**.flex-grid-thirds {
+  display: flex;
+  jsutify-content: space-between;
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}**/
+#main {
+  margin: 0 auto;
+}
+
+.pure-g {
+
+}
+
+.pure-g > div {
+  box-sizing: border-box;
+}
+.header-box {
+  padding: 2em;
+  background-color: #ff9a73;
+}
+
+.student-box {
+  padding: 0.5em;
+  border: 1px solid #ff9a73;
+}
+
+.nav-main {
+  background-color: #ff9a73;
+  padding: 1em;
+}
