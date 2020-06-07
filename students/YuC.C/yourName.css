@@ -1,13 +1,35 @@
 body {
   margin: 0 auto;
   height: 100%;
-  background-color: #6781AD; /* white */
+	background-image: url("images/11.jpg");
+	
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
+		
+		
+
+
 }
 
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
 section {
   margin: 0 auto;
   width: 850px;
 }
+
+.wrapper{
+	text-align: center;
+	margin:20px auto;
+}
+
+
 
 #vlog{
 	color:#FFFFFF;

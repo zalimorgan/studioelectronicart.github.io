@@ -1,0 +1,46 @@
+
+h1{
+	text-align: center;
+	font-size: 35px;
+	
+	
+}
+body {
+  margin: 0 auto;
+	
+  height: 100%;
+  background-color: #FFFFFFF; /* white */
+
+	
+	
+}
+
+.text{
+	text-align: center;
+}
+
+
+.homepage{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  position: fixed;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  padding: 15px;
+  background-color: #FFFFFF;
+}

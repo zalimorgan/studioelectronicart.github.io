@@ -1,0 +1,77 @@
+body {
+  margin: 0 auto;
+  height: 100%;
+	text-align: center;
+
+}
+
+.project-atomoshpere1 {
+	
+	width: 600px;
+	height: 600px;
+	background-image: url("../project/atomosphere.JPG");
+	background-size: 100%;
+	background-position: center ;
+	margin:100px auto;
+
+	
+}
+
+
+
+.project-atomosphere2 {
+	
+	width: 600px;
+	height: 600px;
+	background-image: url("../project/atomosphere1.JPG");
+	background-size: 100%;
+	background-position: center ;
+	margin:100px auto;
+		
+}
+
+.project-atomosphere3 {
+	
+	width: 600px;
+	height: 600px;
+	background-image: url("../project/atomosphere2.JPG");
+	background-size: 100%;
+	background-position: center ;
+	margin:100px auto;
+		
+}
+
+.project-train{
+	
+	width: 600px;
+	height: 600px;
+	background-image: url("../project/train.JPG");
+	background-size: 100%;
+	background-position: center ;
+	margin:100px auto;
+		
+}
+
+
+
+.homepage{
+	text-align: left;
+	font-size:20px;
+	margin-right: 10px auto;
+}
+
+
+.thedoor{
+	text-align: center;
+	font-size:20px;
+	margin-right: 10px auto;
+}
+
+.nextpage{
+	text-align: right;
+	font-size:20px;
+	margin-right: 10px auto;
+}
+
+
+

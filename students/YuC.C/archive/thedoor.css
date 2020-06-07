@@ -1,0 +1,68 @@
+body {
+  margin: 0 auto;
+  height: 100%;
+	text-align: center;
+
+}
+
+.project-doorsmashing {
+	
+	width: 600px;
+	height: 600px;
+	background-image: url("../project/doorsmashing.JPG");
+	background-size: 100%;
+	background-position: center ;
+	margin:100px auto;
+
+	
+}
+
+
+
+.project-dooropen {
+	
+	width: 600px;
+	height: 600px;
+	background-image: url("../project/dooropen.JPG");
+	background-size: 100%;
+	background-position: center ;
+	margin:100px auto;
+		
+}
+
+.project-doorclozzing {
+	
+	width: 600px;
+	height: 600px;
+	background-image: url("../project/doorclozing.JPG");
+	background-size: 100%;
+	background-position: center ;
+	margin:100px auto;
+		
+}
+
+
+
+
+
+.homepage{
+	text-align: left;
+	font-size:20px;
+	margin-right: 10px auto;
+}
+
+
+.coughing{
+	text-align: center;
+	font-size:20px;
+	margin-right: 10px auto;
+}
+
+.nextpage{
+	text-align: right;
+	font-size:20px;
+	margin-right: 10px auto;
+}
+
+
+
