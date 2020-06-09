@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+.h1{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.h1{font-weight: 50}
+.h1{text-align: center
+}
+
+.page2{font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.page2{text-align: center}
+
+.p1{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.p1{font-weight: lighter
+}
+.myimg{
+  width:400px;
+  height:400px;
+  object-fit:cover;
+}
+.myimg2{
+  width:400px;
+  height:400px;
+  object-fit:cover;
+}
+
+.h2{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.p2{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.insta{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+
+.h2{font-weight: 50}
+.h2{text-align: center}
