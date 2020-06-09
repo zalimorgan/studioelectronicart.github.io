@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+.h1{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.h1{font-weight: 50}
+.h1{text-align: center
+}
+
+.page2{font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.page2{text-align: center}
+
+
+.myimg{
+  width:400px;
+  height:400px;
+  object-fit:cover;
+}
+.myimg2{
+  width:400px;
+  height:400px;
+  object-fit:cover;
+}
+.myimg3{
+  width:400px;
+  height:400px;
+  object-fit:cover;
+}
+
+.h2{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.p2{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.insta{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+
+.portfolio{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+
+.h2{font-weight: 50}
+.h2{text-align: center}
+
+
+
+.topnav a {
+  float: center;
+  color: #303030;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.p3{
+	font-family: "Avenir Next Regular", "Avenir Next Ultra Light"
+}
+.p3{
+	font-style: oblique
+}
