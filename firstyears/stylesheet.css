@@ -1,47 +1,55 @@
 @charset "UTF-8";
 /* CSS Document */
+/* Do not edit this document */
 body {
-  background-color: #ff9a73;
+  background-color: #ff9a73; 
 }
-#main {
+
+.main {
   margin: 0 auto;
 }
 
 .pure-g {
   padding: 1em;
-  max-width: 1366px;
+  max-width: 1020px;
   margin: 0 auto;
 }
 
 .pure-g > div {
   box-sizing: border-box;
 }
+
 .header-box {
   padding: 2em;
-  background-color: #ff9a73;
+}
+
+.header-box h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8vw;
+  overflow-wrap: break-word;
 }
 
 .student-box {
   padding: 1em;
-  border: 8px solid #ff9a73;
+  border: 8px solid rgba(0, 0, 0, 0);
+  margin: auto;
   text-align:center;
   background-color: #fff;
-  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
 }
 
 .student-box-content {
-  margin: auto;
+  margin: 0 auto;
+  display: inline-block;
 }
 
-.nav-main {
-  background-color: #ff9a73;
-  padding: 1em;
-}
-
-h1 {
-  color: #FFF;
-  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.56);
-  font-size: 3em;
+footer {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
 }
 
 a:link {
@@ -53,25 +61,20 @@ a:visited {
   color: #000;
 }
 a:hover{
-  text-decoration: underline;
+  background-color:inherit;
+  text-decoration:underline;
 }
 a:active {
   text-decoration: underline;
 }
 
-.nav-main a:link {
-  color:#fff;
-  font-size: 1.5em;
+
+.pure-menu-item {
+  font-family: 'IBM Plex Mono', monospace;
+  display: block;
+  padding: 1.2em;
 }
-.nav-main a:visited {
-  color:#fff;
-  font-size: 1.5em;
-}
-.nav-main a:hover {
-  color:#fff;
-  font-size: 1.5em;
-}
-.nav-main a:active {
-  color:#fff;
-  font-size: 1.5em;
+
+.pure-menu-heading {
+  font-family: 'IBM Plex Mono', monospace;
 }

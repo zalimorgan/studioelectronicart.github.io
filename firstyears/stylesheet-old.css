@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: #ff9a73;
+}
+#main {
+  margin: 0 auto;
+}
+
+.pure-g {
+  padding: 1em;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.pure-g > div {
+  box-sizing: border-box;
+}
+.header-box {
+  padding: 2em;
+  background-color: #ff9a73;
+}
+
+.student-box {
+  padding: 1em;
+  border: 8px solid #ff9a73;
+  text-align:center;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.student-box-content {
+  margin: auto;
+}
+
+.nav-main {
+  background-color: #ff9a73;
+  padding: 1em;
+}
+
+h1 {
+  color: #FFF;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.56);
+  font-size: 3em;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+.nav-main a:link {
+  color:#fff;
+  font-size: 1.5em;
+}
+.nav-main a:visited {
+  color:#fff;
+  font-size: 1.5em;
+}
+.nav-main a:hover {
+  color:#fff;
+  font-size: 1.5em;
+}
+.nav-main a:active {
+  color:#fff;
+  font-size: 1.5em;
+}
