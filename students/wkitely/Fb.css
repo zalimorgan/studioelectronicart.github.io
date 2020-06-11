@@ -1,0 +1,96 @@
+body {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #3b5998/* fb blue */
+ 
+ div.a {
+  font-size: 15px;
+}
+
+div.b {
+  font-size: large;
+}
+
+div.c {
+  font-size: 150%;
+}
+}
+}
+
+section {
+  margin: 0 auto;
+  width: 850px;
+	P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+	    
+	    P { text-align: center }
+H2 { text-align: center }
+}
+...
+<P class="blocktext">This rather...
+	
+}
+
+footer {
+  position: fixed;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  padding: 15px;
+  background-color: #FFFFFF;
+}
+#archiveindex {
+	background-color: #FFF891;
+	color: #EF9EAF;
+	border: 30px solid #80CDFF;
+}
+.fancyparagraph {
+	font-family: "comic sans ms", cursive, sans-serif;
+	color:magenta;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
