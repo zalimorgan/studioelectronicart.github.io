@@ -1,12 +1,15 @@
 body {
   margin: 0 auto;
   height: 100%;
+	padding: 25px;
   background-color: #3b5998/* blue fb */
+	  color: black;
+  text-align: center
 }
 
 section {
   margin: 0 auto;
-  width: 850px;
+  width: 0 auto;
 	P.blocktext {
     margin-left: auto;
     margin-right: auto;
