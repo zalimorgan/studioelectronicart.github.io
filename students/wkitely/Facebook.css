@@ -21,6 +21,17 @@ H2 { text-align: center }
 ...
 <P class="blocktext">This rather...
 	
+	div.a {
+  font-size: 15px;
+}
+
+div.b {
+  font-size: large;
+}
+
+div.c {
+  font-size: 150%;
+}
 }
 
 footer {
