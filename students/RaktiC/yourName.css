@@ -1,8 +1,12 @@
 body {
   margin: 0 auto;
   height: 100%;
-  background-color: #B791DF; /* purple */
-}
+background-image: url("teddybg.png");
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+		
 
 header {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -35,7 +39,7 @@ border: 5px solid #B7CDC2;
 	position: relative;
 	font-size: 18px;
 	color: #3C3533;
-	top: -100px;
+	top: -200px;
 }
 
 #TruthShop {
@@ -45,7 +49,7 @@ border: 5px solid #B7CDC2;
 	position: relative;
 	font-size: 18px;
 	color: #3C3533;
-	top: -60px;
+	top: -160px;
 }
 
 
