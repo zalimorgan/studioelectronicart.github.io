@@ -11,10 +11,31 @@ section {
 
 
 #Raktibooon {
-	background-color: #F5F4D2;
-color: #C4B161;
-border: 5px solid #eebaee;
+	background-color: #EAE6DA;
+color: #84A295;
+border: 5px solid #B7CDC2;
 }
+
+#vlog {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	font-size: 18px;
+	color: #3C3533;
+	top: -100px;
+}
+
+#Truth shop {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	font-size: 18px;
+	color: #3C3533;
+	top: -100px;
+}
+
 
 footer {
   position: fixed;
