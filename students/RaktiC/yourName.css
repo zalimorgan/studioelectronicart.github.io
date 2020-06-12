@@ -4,17 +4,37 @@ body {
   background-color: #B791DF; /* purple */
 }
 
+header {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 50px;
+	text-align: center;
+	color: #333F48;
+	
+}
+
+
+h1 {
+	position: relative;
+	top: -100px;
+	
+}
+
+
 section {
   margin: 0 auto;
   width: 850px;
 }
 
 
+
 #Raktibooon {
-	background-color: #EAE6DA;
+background-color: #B2A08A;
 color: #84A295;
 border: 5px solid #B7CDC2;
+top: -100px;
 }
+
+
 
 #vlog {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -26,7 +46,7 @@ border: 5px solid #B7CDC2;
 	top: -100px;
 }
 
-#Truth shop {
+#TruthShop {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 18px;
 	text-align: center;
@@ -44,5 +64,5 @@ footer {
   width: 100%;
   height: 10vh;
   padding: 15px;
-  background-color: #FFFFFF;
+  background-color: #B2A08A;
 }
