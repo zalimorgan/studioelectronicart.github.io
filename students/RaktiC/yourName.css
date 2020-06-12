@@ -5,17 +5,10 @@ body {
 }
 
 header {
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	font-size: 38px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 20px;
 	text-align: center;
 	color: #333F48;
-	
-}
-
-
-h1 {
-	position: relative;
-	top: -100px;
 	
 }
 
@@ -29,7 +22,7 @@ section {
 
 #Raktibooon {
 background-color: #F3ECE0;
-color: #84A295;
+color: #333F48;
 border: 5px solid #B7CDC2;
 }
 
