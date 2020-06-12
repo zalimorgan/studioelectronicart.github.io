@@ -6,7 +6,7 @@ body {
 
 header {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	font-size: 50px;
+	font-size: 38px;
 	text-align: center;
 	color: #333F48;
 	
@@ -28,10 +28,9 @@ section {
 
 
 #Raktibooon {
-background-color: #B2A08A;
+background-color: #F3ECE0;
 color: #84A295;
 border: 5px solid #B7CDC2;
-top: -100px;
 }
 
 
@@ -53,7 +52,7 @@ top: -100px;
 	position: relative;
 	font-size: 18px;
 	color: #3C3533;
-	top: -100px;
+	top: -60px;
 }
 
 
