@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+
+
+position: relative;
+-webkit-perspective: 115px;
+perspective: 115px;
+
+
+
+
+border: 100px ridge #340000;
+
+
+}
+body {
+
+
+-webkit-transform: rotateX(4deg) rotateY(0deg);
+transform: rotateX(4deg) rotateY(0deg);
+
+
+
+
+
+}
