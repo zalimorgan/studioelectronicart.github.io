@@ -34,7 +34,7 @@ H2 { text-align: center }
 <P class="blocktext">This rather...
 	
 	div.a {
- color: #f1f1f1;
+ color: white;
   font-size: 15px;
 }
 
@@ -43,7 +43,7 @@ div.b {
 }
 
 div.c {
-color: #f1f1f1;
+color: white;
   font-size: 150%;
 }
 }
