@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+
+
+
+
+border: 100px ridge rgba(213, 161, 0, 0.56);
+
+
+}
+body {
+	
+background: linear-gradient(0deg, rgba(162, 255, 148, 0.8), rgba(100, 0, 0, 0.85));
+	
+
+}
