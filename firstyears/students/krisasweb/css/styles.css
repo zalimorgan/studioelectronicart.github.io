@@ -1,0 +1,12 @@
+@charset "utf-8";
+body {
+	color: #0E0F0E;
+	background-color: #F7F0F1;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: oblique;
+	font-variant: normal;
+	font-weight: bolder;
+	border: thick none #0B0A0A;
+	text-shadow: 79px 18px #C1D1CA;
+	font-size: large;
+}
