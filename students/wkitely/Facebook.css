@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #3b5998;
+}
+</style>
+</head>
+<body>
+
 body {
   margin: 0 auto;
   height: 100%;
@@ -5,6 +16,7 @@ body {
   background-color: #3b5998/* blue fb */
   text-align: center
 }
+</body>
 
 section {
   margin: 0 auto;
