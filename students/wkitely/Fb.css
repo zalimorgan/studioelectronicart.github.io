@@ -21,6 +21,22 @@ H2 { text-align: center }
 <P class="blocktext">This rather...
 	
 }
+
+div.a {
+ color: white;
+  font-size: 15px;
+}
+
+div.b {
+	color: white;
+  font-size: large;
+}
+
+div.c {
+color: white;
+  font-size: 150%;
+}
+}
 /* Bordered form */
 form {
   border: 3px solid #f1f1f1;
