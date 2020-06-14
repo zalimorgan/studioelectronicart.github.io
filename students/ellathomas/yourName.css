@@ -1,18 +1,20 @@
 body {
   margin: 0 auto;
   height: 100%;
-  background: linear-gradient(0deg, rgba(170, 207, 244, 0.28), rgba(171, 227, 166, 0.91)); /* GREEN BLUE GRADIENT */
+  background:linear-gradient(0deg, #ffffff, #1b9ffc); /* BLUE TO WHITE GRADIENT */
+  color: #0096ff;
 }
 
 section {
   margin: 25 auto;
   width: 850px;
+  color: #0096ff;
 }
 
 #newsection {
-	background-color: ##AACFF4;
-	color: #0066AB;
-    border: 10px ridge rgba(0, 102, 171, 0.83);
+	background-color: ##FFFFFF;
+	color: #0096ff;
+    border: 12px ridge rgba(255, 255, 255, 0.45);
 }
 
 footer {
@@ -23,6 +25,8 @@ footer {
   height: 10vh;
   padding: 15px;
   background-color: #FFFFFF;
+  color: #0096ff;
+
 }
 
 .myClass {
