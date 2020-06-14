@@ -20,269 +20,112 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJ6qNqdgQ7N3D8Wg2AB264OHBrklx-qZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
-<section class="myClass">
-  <h2>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-  box-sizing: border-box;
+.flex-container {
+  display: flex;
+  justify-content: center;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 20px;
+  font-size: 40px;
 }
 </style>
 </head>
 <body>
 
-<div style="text-align:center">
+<div class="flex-container">
+  <div><img src="Screen Shot 2020-03-18 at 4.12.36 pm" alt="p1" width="100%"></div>
+  <div><img src="Screen Shot 2020-03-18 at 4.12.57 pm" alt="p2" width="100%"></div>
+  <div><img src="Screen Shot 2020-03-18 at 4.13.29 pm" alt="p3" width="100%"></div>
+  <div><img src="Screen Shot 2020-03-18 at 4.15.05 pm" alt="p4" width="100%"></div>
 </div>
 
-<!-- The four columns -->
-<div class="row">
-  <div class="column">
-    <img src="Screen Shot 2020-03-18 at 4.12.36 pm" alt="p1" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-03-18 at 4.12.57 pm" alt="p2" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-03-18 at 4.13.29 pm" alt="p3" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-03-18 at 4.15.05 pm" alt="p4" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="Screen Shot 2020-03-18 at 4.16.50 pm" alt="p5" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 9.14.26 pm" alt="p6" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 9.24.17 pm" alt="p7" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 10.14.08 pm" alt="p8" width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="Screen Shot 2020-03-18 at 4.16.50 pm" alt="p5" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 9.14.26 pm" alt="p6" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 9.24.17 pm" alt="p7" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.14.08 pm" alt="p8" style="width:100%" onclick="myFunction(this);">
-  </div>
+
+<div class="flex-container">
+  <div><img src="Screen Shot 2020-05-08 at 10.14.23 pm" alt="p9" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 10.14.44 pm" alt="p10" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 10.15.00 pm" alt="p11" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 10.15.20 pm" alt="p12" width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.14.23 pm" alt="p9" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.14.44 pm" alt="p10" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.15.00 pm" alt="p11" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.15.20 pm" alt="p12" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="Screen Shot 2020-05-08 at 10.15.47 pm" alt="p13" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 10.16.06 pm" alt="p14" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 10.16.23 pm" alt="p15" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 10.16.45 pm" alt="p16" width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.15.47 pm" alt="p13" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.16.06 pm" alt="p14" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.16.23 pm" alt="p15" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.16.45 pm" alt="p16" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="Screen Shot 2020-05-08 at 10.45.32 pm" alt="p17" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 10.45.45 pm" alt="p18" width="100%"></div>
+  <div><img src="Screen Shot 2020-05-08 at 10.45.53 pm" alt="p19" width="100%"></div>
+  <div><img src="Screen Shot 2020-06-14 at 2.16.30 pm" alt="p20"  width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.45.32 pm" alt="p17" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.45.45 pm" alt="p18" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-05-08 at 10.45.53 pm" alt="p19" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="Screen Shot 2020-06-14 at 2.16.30 pm" alt="20" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="screen-0184.tif" alt="p21" width="100%"></div>
+  <div><img src="screen-0189.tif" alt="p22" width="100%"></div>
+  <div><img src="screen-0202.tif" alt="p23" width="100%"></div>
+  <div><img src="screen-0222.tif" alt="p24" width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="screen-0184.tif" alt="p21" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-0189.tif" alt="p22" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-0202.tif" alt="p23" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-0222.tif" alt="p24" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="screen-0958.tif" alt="p25" width="100%"></div>
+  <div><img src="screen-1011.tif" alt="p26" width="100%"></div>
+  <div><img src="screen-1056.tif" alt="p27" width="100%"></div>
+  <div><img src="screen-1168.tif" alt="p28" width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="screen-0958.tif" alt="p25" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1011.tif" alt="p26" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1056.tif" alt="p27" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1168.tif" alt="p28" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="screen-1175.tif" alt="p29" width="100%"></div>
+  <div><img src="screen-1177.tif" alt="p30" width="100%"></div>
+  <div><img src="screen-1179.tif" alt="p31" width="100%"></div>
+  <div><img src="screen-1182.tif" alt="p32" width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="screen-1175.tif" alt="p29" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1177.tif" alt="p30" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1179.tif" alt="p31" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1182.tif" alt="p32" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="screen-1184.tif" alt="p33" width="100%"></div>
+  <div><img src="screen-1186.tif" alt="p34" width="100%"></div>
+  <div><img src="screen-1189.tif" alt="p35" width="100%"></div>
+  <div><img src="screen-1194.tif" alt="p36" width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="screen-1184.tif" alt="p33" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1186.tif" alt="p34" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1189.tif" alt="p35" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1194.tif" alt="p36" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="screen-1196.tif" alt="p37" width="100%"></div>
+  <div><img src="screen-1198.tif" alt="p38" width="100%"></div>
+  <div><img src="screen-1201.tif" alt="p39" width="100%"></div>
+  <div><img src="screen-1210.tif" alt="p40" width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="screen-1196.tif" alt="p37" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1198.tif" alt="p38" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1201.tif" alt="p39" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1210.tif" alt="p40" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="screen-1213.tif" alt="p41" width="100%"></div>
+  <div><img src="screen-1216.tif" alt="p42" width="100%"></div>
+  <div><img src="screen-1218.tif" alt="p43" width="100%"></div>
+  <div><img src="screen-1281.tif" alt="p44" width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="screen-1213.tif" alt="p41" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1216.tif" alt="p42" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1218.tif" alt="p43" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1281.tif" alt="p44" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="screen-1283.tif" alt="p45" width="100%"></div>
+  <div><img src="screen-1286.tif" alt="p46" width="100%"></div>
+  <div><img src="screen-1479.tif" alt="p47" width="100%"></div>
+  <div><img src="" alt="p48"  width="100%"></div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img src="screen-1283.tif" alt="p45" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1286.tif" alt="p46" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="screen-1479.tif" alt="p47" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="" alt="p48" style="width:100%" onclick="myFunction(this);">
-  </div>
-</div>
-
-<div class="row">
-  <div class="column">
-    <img src="" alt="p49" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="" alt="p50" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="" alt="p51" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="" alt="p52" style="width:100%" onclick="myFunction(this);">
-  </div>
+<div class="flex-container">
+  <div><img src="" alt="p49" width="100%"></div>
+  <div><img src="" alt="p50" width="100%"></div>
+  <div><img src="" alt="p51" width="100%"></div>
+  <div><img src="" alt="p52"  width="100%"></div>
 </div>
 
 <section class="myClass">
@@ -312,7 +155,11 @@ function myFunction(imgs) {
   <!-- do not remove this footer. You may change style/formatting (e.g. padding,
   font face, colour) in your CSS file but it must remain fixed at the bottom of
   the page, and contain the same text. It must appear on all pages of your
-  personal site.-->
+  personal site.
+References: https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox
+https://www.instructables.com/id/Bristlebot-1/
+
+-->
   <section class="footermain">
       <p>Disclaimer regarding work from external sources: <br>
         This student work has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author. All copyright material used remains copyright of the respective owners and has been used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No part of this work may be reproduced without consent of the original copyright owners. See code comments for references.</p>
