@@ -1,25 +1,24 @@
 body {
   margin: 0 auto;
   height: 100%;
-  background:linear-gradient(0deg, #a0d5fa, #1b9ffc); /* BLUE TO WHITE GRADIENT */
+  background:linear-gradient(0deg, #90d0fc, #1b9ffc); /* BLUE TO WHITE GRADIENT */
+  color: #ffffff;
+  text-align: center;
+-
+}
+
+section {
+  margin: 25 auto;
+  width: 850px;
   color: #ffffff;
   text-align: center;
   margin:auto;
 
 }
 
-section {
-  margin: 25 auto;
-  width: 850px;
-  color: #0096ff;
-  text-align: center;
-  margin:auto;
-  
-}
-
 #newsection {
 	background-color: ##FFFFFF;
-	color: #0096ff;
+	color: #ffffff;
     border: 12px ridge rgba(255, 255, 255, 0.45);
     text-align: center;
     margin:auto;
@@ -41,12 +40,10 @@ footer {
 
 .myClass {
  text-align: center;
- margin:auto;
 
 }
 
 .vlogs {
 text-align: center;
-margin:auto;
 
 }
