@@ -44,8 +44,9 @@ function timedRefresh(timeoutPeriod) {
        }
    }, 1000);
 }
-timedRefresh(30);
+timedRefresh(120);
 
+//code borrowed from https://stackoverflow.com/questions/16532577/javascript-refresh-countdown-text
 
 //document.getElementById("specialDiv1").innerText = ();
 
