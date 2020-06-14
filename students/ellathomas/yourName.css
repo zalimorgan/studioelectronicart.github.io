@@ -32,7 +32,6 @@ footer {
   padding: 15px;
   background-color: #FFFFFF;
   color: #0096ff;
-  text-align: center;
   margin:auto;
 
 }
@@ -40,10 +39,12 @@ footer {
 .myClass {
  text-align: center;
  margin:auto;
+justify-content: center;
 
 }
 
 .vlogs {
 text-align: center;
+
 
 }
