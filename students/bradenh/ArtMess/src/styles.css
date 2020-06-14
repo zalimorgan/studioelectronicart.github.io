@@ -1,0 +1,42 @@
+body {
+    background-image: url("assets/background.png");
+	    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#screen {
+    position: absolute;
+    margin: auto;
+    left: 0; top: 0; bottom: 0; right: 0;
+    border: 1px solid black;
+    overflow: hidden;
+    user-select: none;
+}
+
+/* #map {
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+    left: 10px;
+    top: 10px;
+     i know, it's ugly 
+    z-index: 99999;
+} */
+
+/* #minimap { position: absolute; } */
+#objects { position: absolute; } 
+
+#floor {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	background-image: url("assets/floor.png");
+
+}
+
+#ceiling {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-image: url("assets/ceiling.jpg");
+}
