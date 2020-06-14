@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: black;
+	color: white;
+}
+
+#narrow {
+	max-width:280px;
+}
+
+#normal {
+	max-width: 600px;
+}
+
+table {
+	width: 600px;
+	height: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+	padding:20px;
+}
