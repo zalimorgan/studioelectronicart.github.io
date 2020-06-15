@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	body {
+background-image: url("../img/tiger.jpg");
+background-color: #E6E6E6;	
+}
+
+a {
+	color: gold;
+	font-size: 20px;
+	font-family: arial;
+	
+}
+
+img{
+border: 10px outset gold;
+	border-radius: 1px;
+	padding:1px;
+	width:25;
+}
+
+img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186,0.5);
+}
+
+img {
+	position:block;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+button {
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	outline:none;
+	color:white;
+	background-color: #CE12F0;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: aqua }
+
+
+h1 {
+  color: antiquewhite;
+  text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size : 60px;
+	font-style: BOLD;
+	}
+
+	
+h2 {
+	color:whitesmoke;
+	font-family: verdana;
+	font-size: 35px;
+}
+h3 {
+	color: whitesmoke;
+	font-family :verdana;
+	font-size: 30px;
+}
+h4 {
+	color:whitesmoke;
+	font-family :verdana;
+	font-size: 30px;
+}
+p {
+	color:whitesmoke;
+	font-family: verdana;
+	font-size : 25px;
+}
+blah {
+  color:cornsilk;
+  text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size : 60px;
+	font-style: Bold;
+	}
