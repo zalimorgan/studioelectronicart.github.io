@@ -2,7 +2,7 @@
 
 /* CSS Document */
 
-html {
+html{
 	
 }
 
@@ -19,6 +19,7 @@ Body {
 		
 }
 
+a { color: inherit; } 
 
 
 .gl {
@@ -78,9 +79,7 @@ p{
     background-color: #303030;
 	border: 1px thin;
 	box-shadow: 2px 5px #202020;
-	
-	
-	}
+}
 
 p2 {
 	font-family: 'Merriweather', serif;
@@ -88,7 +87,7 @@ p2 {
 	width: 100%;
 	height: auto;
 	max-width: 1000px;
-	font-size: 2.2em;
+	font-size:2.2em;
 	color: #FFEA2B;
 	text-shadow: 1px 2px #FF0000;
 	border-radius: 6px;
@@ -104,14 +103,13 @@ p3 {
 	height: auto;
 	max-width: 1000px;
 	font-size: 2em;
-	color:#A1A1A1;
+	color:#AB0000;
 	
 	border-radius: 0px 15px 15px;
     background-color: #303030;
 	border: 1px thin;
 	box-shadow: 2px 5px #202020;
-	animation: text-box 2s ease-out;
-    animation-iteration-count: infinite;	
+	
 }
 .bttn-alt {
 	font-family: 'Lexend Deca', sans-serif;
@@ -133,6 +131,8 @@ p3 {
 	outline: none;
 	color:#FF0000;
 	border: none;
+	max-width: 1000px;
+	width: 100%;
 }
 
 .button:hover {color: #132DFD}
@@ -169,11 +169,22 @@ img:hover {
 	transition: 1s;
 }
 
-video {
-	max-width: 1000;
-	display:inline-block;
-	width: 100%;
-	max-width: 1000px;
-	height: auto;
-	border-radius: 8px;
+iframe{
+  max-width: 1000px;
+  width: 100%;
+  height: 800px;
+  border-radius: 0px 15px 15px 15px;
+  border-width: 0;
+		  background-color: #303030;
+	border: 0;
+	box-shadow: 5px 6px #202020;
 }
+
+video {
+	  max-width: 1000px;
+  border-radius: 0px 15px 15px 15px;
+  border-width: 0;
+		  background-color: #303030;
+	border: 0;
+}
+
