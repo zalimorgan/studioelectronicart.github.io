@@ -1,0 +1,48 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+body {
+  background-color: #02FF00; /*This means white! check out hexadecimal colours*/
+}
+
+header {
+  background-color: #FF00F4;
+  color: #FF4600;
+}
+
+div {
+  /*this acts on *all* divs */
+  width: 500px;
+  margin: 0 auto; /*centres divs horizontally*/
+}
+
+h1 {
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+p {
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+img {
+
+}
+
+footer {
+  background-color: #FF00F4;
+  color: #02FF600;
+}
+
+#myFirstDiv {
+	color: #6270FF
+	
+  /* use # to specify elements using their ID*/
+}
+
+#imageDiv {
+
+}
+
+#hyperlinkDiv {
+
+}
