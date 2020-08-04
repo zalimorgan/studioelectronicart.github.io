@@ -1,0 +1,46 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+body {
+  background-color: #FFFFFF; /*This means white! check out hexadecimal colours*/
+}
+
+header {
+  background-color: #000000;
+  color: honeydew;
+}
+
+div {
+  /*this acts on *all* divs */
+  width: 500px;
+  margin: 0 auto; /*centres divs horizontally*/h
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+img {
+
+}
+
+footer {
+  background-color: honeydew;
+  color: honeydew;
+}
+
+#myFirstDiv {
+  /* use # to specify elements using their ID*/
+}
+
+#imageDiv {
+
+}
+
+#hyperlinkDiv {
+
+}
