@@ -1,0 +1,48 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+body {
+  background-color: #E6F7FF;
+	color: #FFFFFF /*This means white! check out hexadecimal colours*/
+}
+
+header {
+  background-color: #FF99BB;
+  color: #FFFFFF;
+}
+
+div {
+  /*this acts on *all* divs */
+  width: 500px;
+  margin: 0 auto; /*centres divs horizontally*/
+}
+
+h1 {
+  font-family: fantasy, "", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+p {
+  font-family: cursive;
+}
+
+img {
+
+}
+
+footer {
+  background-color: #99DDFF;
+  color: #FFFFFF;
+}
+
+#myFirstDiv {
+color: #0099FF
+  /* use # to specify elements using their ID*/
+}
+
+#imageDiv {
+
+}
+
+#hyperlinkDiv {
+
+}
