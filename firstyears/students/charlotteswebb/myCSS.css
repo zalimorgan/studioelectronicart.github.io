@@ -2,12 +2,12 @@
   styling. Check out a CSS generator to add cool styles!*/
 
 body {
-  background-color: #60974D; /*This means white! check out hexadecimal colours*/
+  background-color: #BBEBAB; /*This means white! check out hexadecimal colours*/
 }
 
 header {
-  background-color: #000000;
-  color: honeydew;
+  background-color: #709264;
+  color: #FFFFFF;
 }
 
 div {
@@ -29,7 +29,7 @@ img {
 }
 
 footer {
-  background-color: honeydew;
+  background-color: 709264;
   color: honeydew;
 }
 
