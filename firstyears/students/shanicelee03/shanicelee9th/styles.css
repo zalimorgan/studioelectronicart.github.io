@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body {
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+    font-family: "Futura PT Light", "Futura PT Book", "Futura PT Medium", sans-serif;
+}
