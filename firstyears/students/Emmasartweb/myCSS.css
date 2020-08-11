@@ -3,12 +3,12 @@
 
 body {
   background-color: #FFFFFF; /*This means white! check out hexadecimal colours*/
-	background: linear-gradient(0deg, #e2bbf0, #f778a6);
+	background: linear-gradient(0deg, rgba(109, 214, 247, 0.65), rgba(255, 255, 255, 1)); 
 }
 
 header {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #8cf8ff;
+  color: #1134ed;
 }
 
 div {
@@ -23,6 +23,7 @@ h1 {
 
 p {
   font-family: monospace;
+color: #e046b5;
 }
 
 img {
@@ -36,10 +37,12 @@ footer {
 }
 
 #myFirstDiv {
+	
   /* use # to specify elements using their ID*/
 }
 
 #imageDiv {
+	border-radius: 100px; 
 
 }
 
