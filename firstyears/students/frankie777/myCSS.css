@@ -2,12 +2,12 @@
   styling. Check out a CSS generator to add cool styles!*/
 
 body {
-  background-color: #02FF00; /*This means white! check out hexadecimal colours*/
+  background-color: #FFFFFF; /*This means white! check out hexadecimal colours*/
 }
 
 header {
-  background-color: #FF00F4;
-  color: #FF4600;
+  background-color: #000000;
+  color: #970000;
 }
 
 div {
@@ -17,11 +17,11 @@ div {
 }
 
 h1 {
-  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  font-family: monospace;
 }
 
 p {
-  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  font-family: monospace;
 }
 
 img {
@@ -29,13 +29,11 @@ img {
 }
 
 footer {
-  background-color: #FF00F4;
-  color: #02FF600;
+  background-color: #AF0000;
+  color: #FFFFFF;
 }
 
 #myFirstDiv {
-	color: #6270FF
-	
   /* use # to specify elements using their ID*/
 }
 
