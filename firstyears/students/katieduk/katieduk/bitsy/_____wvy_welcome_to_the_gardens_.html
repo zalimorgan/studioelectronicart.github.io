@@ -25,9 +25,39 @@
 
 PAL 0
 NAME garden
-41,107,40
-242,168,237
+2,136,52
+2,13,140
 240,251,242
+
+PAL 1
+NAME cutie theme
+123,187,143
+255,196,75
+255,255,255
+
+PAL 2
+NAME roses
+156,202,80
+176,3,12
+255,255,255
+
+PAL 3
+NAME sunflowers
+152,169,95
+254,240,77
+243,248,255
+
+PAL 4
+NAME witchy
+110,131,136
+80,6,160
+239,241,255
+
+PAL 5
+NAME magical
+189,212,206
+255,219,246
+255,255,255
 
 ROOM 0
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
@@ -71,7 +101,9 @@ NAME central garden
 ITM 0 9,8
 EXT 0,7 0 15,7 FX tunnel
 EXT 7,0 2 7,15 FX tunnel
-PAL 0
+EXT 7,15 3 7,0 FX tunnel
+EXT 15,8 4 0,3 FX tunnel DLG 8
+PAL 1
 
 ROOM 2
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -93,7 +125,7 @@ ROOM 2
 NAME left courtyard
 ITM 2 7,9
 EXT 7,15 1 7,0 FX tunnel
-PAL 0
+PAL 2
 
 ROOM 3
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -114,7 +146,8 @@ ROOM 3
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME right courtyard
 ITM 1 7,7
-PAL 0
+EXT 7,0 1 7,15 FX tunnel
+PAL 3
 
 ROOM 4
 b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
@@ -135,9 +168,9 @@ b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
 b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
 NAME back garden
 ITM 3 9,7
-EXT 15,11 5 0,7 FX tunnel
+EXT 15,11 5 0,7 FX tunnel DLG 9
 END 6 15,4
-PAL 0
+PAL 4
 
 ROOM 5
 b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
@@ -159,7 +192,7 @@ b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
 NAME garden beds
 ITM 4 12,12
 END 7 15,8
-PAL 0
+PAL 5
 
 TIL a
 00000000
@@ -238,7 +271,7 @@ SPR A
 01111001
 00101001
 00101001
-POS 5 1,6
+POS 0 1,7
 
 SPR a
 00100000
@@ -259,7 +292,7 @@ SPR a
 00010100
 00000000
 NAME baby bird
-DLG 0
+DLG a
 POS 0 8,7
 
 SPR b
@@ -422,24 +455,6 @@ ITM 6
 00011000
 NAME spell
 
-DLG 0
-"""
-{
-  - {item "0"} == 1 ?
-    ...Yum! Thanks, but I'm still hungry... could you find me some more food please?
-    {item "0" 0}
-  - else ?
-    I'm a baby bird! I'm really hungry... can you please find me something to eat?
-}{
-  - {item "2"} == 1 ?
-    ...Yay! More food!... if you can find me one last meal, I'll give you the key to the next garden!
-    {item "2" 0}
-  - else ?
-    ...My stomach is grumbling!
-}
-"""
-NAME bird dialog
-
 DLG 1
 This fat, juicy worm is perfect for a baby bird!
 NAME worm dialog
@@ -461,6 +476,9 @@ DLG 4
 {
   - {item "3"} == 1 ?
     ...thanks! Do you wish to hear your fortune?
+    {pg}
+    YES
+    NO
   - else ?
     Hello young traveller... my name is {shk}Purple Haze{shk}
     {pg}
@@ -502,8 +520,57 @@ You may have taken the longer route, but you made it!...I hope you got that fair
 """
 NAME ending 2
 
-VAR a
-42
+DLG 8
+"""
+{
+  - {item "5"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 1
+
+DLG 9
+"""
+{
+  - {item "5"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 2
+
+DLG a
+"""
+{
+  - {item "0"} == 1 ?
+    Yum! Thanks, but I'm still hungry... could you find me some more food please?
+    {item "0" 0}
+}{
+  - {item "2"} == 1 ?
+    Yay! More food!... if you can find me one last meal, I'll give you the key to the next garden!
+    {item "2" 0}
+}{
+  - {item "1"} == 1 ?
+    At last, my bird belly is full!...Thankyou kind traveller!
+    {pg}
+    ...Here is the key to the next garden...safe travels!
+    {item "5" 1}
+    {item "1" 0}
+  - else ?
+    {say givenitem item}
+}
+"""
+NAME bird dialog
+
+VAR givenitem
+I'm a baby bird! I'm really hungry... can you please find me something to eat?
 
 
 </script>
@@ -9432,7 +9499,6 @@ CHAR 255
 010010
 000000
 000000
-</script>
 </script>
 
 </head>

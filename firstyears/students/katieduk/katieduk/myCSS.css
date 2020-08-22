@@ -25,10 +25,15 @@ h1 {
   text-shadow: 6px 4px 5px rgba(240, 125, 152, 0.51);
 }
 
+h2 {
+color: #FFFFFF
+}
+
 p {
   font-family: serif;
   line-height: 1.2;
   text-align: justify;
+  color: #ffb0cc;
 }
 
 img {
@@ -36,12 +41,17 @@ img {
 }
 
 footer {
-  background-color: #000000;
+  background-color: #fff6c7;
   color: #FFFFFF;
 }
 
 #myFirstDiv {
   /* use # to specify elements using their ID*/
+
+}
+
+#spotifyDiv {
+
 }
 
 #imageDiv {
@@ -50,4 +60,12 @@ footer {
 
 #hyperlinkDiv {
 
+}
+
+#para1 {
+
+}
+
+#para2 {
+  
 }
