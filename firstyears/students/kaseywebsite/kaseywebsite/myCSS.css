@@ -1,0 +1,47 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+body {
+  background-color: #F3E6A1 wheat means wheat! #F0E2A8 out hexadecimal colours*/
+	color:mediumvioletred
+}
+
+header {
+  background-color: #D58183;
+  color: #FFEBEC;
+}
+
+div {
+  /*this acts on *all* divs */
+  width: 500px;
+  margin: 0 auto; /*centres divs horizontally*/
+}
+
+h1 {
+  font-family: monospace;
+}
+
+p {
+  font-family: monospace;
+}
+
+img {
+
+}
+
+footer {
+  background-color: #713E3F;
+  color: #E79A9B;
+}
+
+#myFirstDiv {
+  /* use # to specify elements using their ID*/
+}
+
+#imageDiv {
+
+}
+
+#hyperlinkDiv {
+
+}
