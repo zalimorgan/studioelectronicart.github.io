@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body {
+    background-color: #4879E9;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #F412C8;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+	
+	-moz-transform: translate(-9px, 0px) skew(0deg, -26deg);
+-webkit-transform: translate(-9px, 0px) skew(0deg, -26deg);
+-o-transform: translate(-9px, 0px) skew(0deg, -26deg);
+-ms-transform: translate(-9px, 0px) skew(0deg, -26deg);
+transform: translate(-9px, 0px) skew(0deg, -26deg);
+}
