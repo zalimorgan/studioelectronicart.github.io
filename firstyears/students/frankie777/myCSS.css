@@ -2,18 +2,18 @@
   styling. Check out a CSS generator to add cool styles!*/
 
 body {
-  background-color: #FFFFFF; /*This means white! check out hexadecimal colours*/
+  background-color: #000000/*This means white! check out hexadecimal colours*/
 }
 
 header {
-  background-color: #000000;
-  color: #970000;
+  background-color: #460001;
+  color: #641A1B;
 }
 
 div {
   /*this acts on *all* divs */
-  width: 500px;
-  margin: 0 auto; /*centres divs horizontally*/
+  width: 200px;
+  margin: 1 auto; /*centres divs horizontally*/
 }
 
 h1 {
@@ -29,8 +29,8 @@ img {
 }
 
 footer {
-  background-color: #AF0000;
-  color: #FFFFFF;
+  background-color: #000000;
+  color: #641A1B;
 }
 
 #myFirstDiv {
