@@ -1,0 +1,46 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+body {
+  background-color: #E6B9AF; /*This means white! check out hexadecimal colours*/
+}text-align: center;
+
+header {
+  background-color: #E6B9AF;
+  color: #86493C;
+}text-align: center;
+
+div {
+  /*this acts on *all* divs */
+  width: 700px;
+  margin: 50 auto; /*centres divs horizontally*/
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+img {
+
+}
+
+footer {
+  background-color: #E6B9AF;
+  color: #86493C;
+}
+
+#myFirstDiv {
+  /* use # to specify elements using their ID*/
+}
+
+#imageDiv {
+
+}
+
+#hyperlinkDiv {
+
+}
