@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body {
+    background-color: #68C6E3;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #E021E1;
+    font-weight: normal;
+    text-decoration: overline;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+	
+	-moz-transform: scale(0.4) rotate(27deg) translate(-1px, 0px);
+-webkit-transform: scale(0.4) rotate(27deg) translate(-1px, 0px);
+-o-transform: scale(0.4) rotate(27deg) translate(-1px, 0px);
+-ms-transform: scale(0.4) rotate(27deg) translate(-1px, 0px);
+transform: scale(0.4) rotate(27deg) translate(-1px, 0px);
+	
+	
+	
+	
+	
+	
+	
+}

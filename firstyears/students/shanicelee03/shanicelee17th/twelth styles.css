@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: #EFB80C;
+    color: #F1101D;
+	
+	font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 20px;
+letter-spacing: 6px;
+word-spacing: 0.4px;
+color: #F1101D;
+font-weight: normal;
+text-decoration: overline;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+	
+	-moz-transform: scale(0.8) skew(0deg, -25deg);
+-webkit-transform: scale(0.8) skew(0deg, -25deg);
+-o-transform: scale(0.8) skew(0deg, -25deg);
+-ms-transform: scale(0.8) skew(0deg, -25deg);
+transform: scale(0.8) skew(0deg, -25deg);
+}

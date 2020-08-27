@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: #F00DCD;
+    color: #1E32F9;
+	
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 20px;
+letter-spacing: 6px;
+word-spacing: 0.4px;
+color: #1E32F9;
+font-weight: normal;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+	
+	-moz-transform: rotate(25deg) translate(0px, 7px) skew(34deg, 0deg);
+-webkit-transform: rotate(25deg) translate(0px, 7px) skew(34deg, 0deg);
+-o-transform: rotate(25deg) translate(0px, 7px) skew(34deg, 0deg);
+-ms-transform: rotate(25deg) translate(0px, 7px) skew(34deg, 0deg);
+transform: rotate(25deg) translate(0px, 7px) skew(34deg, 0deg);
+}

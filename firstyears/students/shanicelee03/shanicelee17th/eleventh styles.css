@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: #2D33E1;
+    color: #FB0AD0;
+	
+	font-family: "Lucida Console", Monaco, monospace;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #FB0AD0;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+	
+	-moz-transform: scale(0.9) rotate(34deg);
+-webkit-transform: scale(0.9) rotate(34deg);
+-o-transform: scale(0.9) rotate(34deg);
+-ms-transform: scale(0.9) rotate(34deg);
+transform: scale(0.9) rotate(34deg);
+}

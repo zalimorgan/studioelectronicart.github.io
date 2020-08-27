@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+    background-color: #89F66A;
+    color: #5144DE;
+    text-shadow: 0px 0px 30px;
+	
+-moz-transform: scale(0.8) translate(-1px, 0px) skew(28deg, 0deg);
+-webkit-transform: scale(0.8) translate(-1px, 0px) skew(28deg, 0deg);
+-o-transform: scale(0.8) translate(-1px, 0px) skew(28deg, 0deg);
+-ms-transform: scale(0.8) translate(-1px, 0px) skew(28deg, 0deg);
+transform: scale(0.8) translate(-1px, 0px) skew(28deg, 0deg);
+}

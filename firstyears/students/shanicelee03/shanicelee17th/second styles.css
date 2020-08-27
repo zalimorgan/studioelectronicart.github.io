@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+    background-color: #E46CDB;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #2E2BE0;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-shadow: 0px 0px 0px;
+}

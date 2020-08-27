@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+    background-color: #26EA47;
+    color: #3422E8;
+	
+	font-family: "Courier New", Courier, monospace;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #3422E8;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
