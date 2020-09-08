@@ -1,0 +1,50 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+body {
+     background-color: #0000ff;
+  background-image: linear-gradient(45deg, #ff3399 25%, transparent 25%, transparent 75%, #ff3399 75%), linear-gradient(45deg, #ff3399 25%, transparent 25%, transparent 75%, #ff3399 75%);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+}
+
+header {
+  background-color: #00ff00;
+  color: #ff9900;
+}
+
+div {
+  /*this acts on *all* divs */
+  width: 500px;
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	color: #ffffff; 
+}
+
+img {
+
+}
+
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#myFirstDiv {
+  /* use # to specify elements using their ID*/
+}
+
+#imageDiv {
+margin-left: 10px
+}
+
+#hyperlinkDiv {
+
+}

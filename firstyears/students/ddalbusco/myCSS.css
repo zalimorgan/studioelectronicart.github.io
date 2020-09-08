@@ -2,10 +2,7 @@
   styling. Check out a CSS generator to add cool styles!*/
 
 body {
-   background-color: #ff0066;
-  background-image: linear-gradient(45deg, #00f 25%, transparent 25%, transparent 75%, #00f 75%), linear-gradient(45deg, #00f 25%, transparent 25%, transparent 75%, #00f 75%);
-  background-size: 20px 20px;
-  background-position: 0 0, 10px 10px;
+     background-color:black
 }
 
 header {
@@ -16,7 +13,7 @@ header {
 div {
   /*this acts on *all* divs */
   width: 500px;
-  margin: 0 auto; /*centres divs horizontally*/
+  margin-left: 10px;
 }
 
 h1 {
@@ -24,7 +21,8 @@ h1 {
 }
 
 p {
-  font-family: monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	color: #ffffff; 
 }
 
 img {
@@ -41,7 +39,7 @@ footer {
 }
 
 #imageDiv {
-
+margin-left: 10px
 }
 
 #hyperlinkDiv {
