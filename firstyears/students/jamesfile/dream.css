@@ -1,0 +1,12 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+body {
+  background-color: #000000; /*This means white! check out hexadecimal colours*/
+}
+
+p {
+  text-align: left;
+  font-family: serif;
+  font-size: 20pt;
+}
