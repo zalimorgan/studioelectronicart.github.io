@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "When I First Met You FINAL",
+"productVersion": "0.1",
+"dataUrl": "WhenIFirstMetYouFINAL.data.unityweb",
+"wasmCodeUrl": "WhenIFirstMetYouFINAL.wasm.code.unityweb",
+"wasmFrameworkUrl": "WhenIFirstMetYouFINAL.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.1f1"
+}
