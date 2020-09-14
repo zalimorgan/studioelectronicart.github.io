@@ -1,0 +1,71 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+body {
+  background: linear-gradient(171deg, rgba(255, 249, 224, 0.37), rgba(252, 149, 224, 1)); /*This means white! check out hexadecimal colours*/
+  border: 12px dotted #ffd9e9;
+}
+
+header {
+  background-color: #ffd9e9;
+  color: #FFFFFF;
+  resize: vertical;
+  overflow: auto
+}
+
+div {
+  /*this acts on *all* divs */
+  width: 500px;
+  margin: 0 auto; /*centres divs horizontally*/
+}
+
+h1 {
+  font-family: serif;
+  letter-spacing: 4px;
+  text-shadow: 6px 4px 5px rgba(240, 125, 152, 0.51);
+}
+
+h2 {
+color: #FFFFFF
+}
+
+p {
+  font-family: serif;
+  line-height: 1.2;
+  text-align: justify;
+  color: #ffb0cc;
+}
+
+img {
+  width: 100%
+}
+
+footer {
+  background-color: #fff6c7;
+  color: #FFFFFF;
+}
+
+#myFirstDiv {
+  /* use # to specify elements using their ID*/
+
+}
+
+#spotifyDiv {
+
+}
+
+#imageDiv {
+
+}
+
+#hyperlinkDiv {
+
+}
+
+#para1 {
+
+}
+
+#para2 {
+
+}
