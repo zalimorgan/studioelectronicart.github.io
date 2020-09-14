@@ -2,12 +2,15 @@
   styling. Check out a CSS generator to add cool styles!*/
 
 body {
-  background-color: #657A4B; /*This means white! check out hexadecimal colours*/
+  background: linear-gradient(171deg, rgba(255, 249, 224, 0.37), rgba(252, 149, 224, 1)); /*This means white! check out hexadecimal colours*/
+  border: 12px dotted #ffd9e9;
 }
 
 header {
-  background-color: #657A4B;
+  background-color: #ffd9e9;
   color: #FFFFFF;
+  resize: vertical;
+  overflow: auto
 }
 
 div {
@@ -17,24 +20,38 @@ div {
 }
 
 h1 {
-  font-family: monospace;
+  font-family: serif;
+  letter-spacing: 4px;
+  text-shadow: 6px 4px 5px rgba(240, 125, 152, 0.51);
+}
+
+h2 {
+color: #FFFFFF
 }
 
 p {
-  font-family: monospace;
+  font-family: serif;
+  line-height: 1.2;
+  text-align: justify;
+  color: #ffb0cc;
 }
 
 img {
-
+  width: 100%
 }
 
 footer {
-  background-color: #000000;
+  background-color: #fff6c7;
   color: #FFFFFF;
 }
 
 #myFirstDiv {
   /* use # to specify elements using their ID*/
+
+}
+
+#spotifyDiv {
+
 }
 
 #imageDiv {
@@ -42,5 +59,13 @@ footer {
 }
 
 #hyperlinkDiv {
+
+}
+
+#para1 {
+
+}
+
+#para2 {
 
 }
