@@ -13,21 +13,21 @@ Light grey: #DCDCDD
 */
 
 body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #8D1900/*grey*/
-  color: #B8B8B8; /*very dark grey - text colour */
-  font-family: courier, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; /*very basic web-compatible font */
+  background-color: #8D1900; /*grey*/
+  color: #292F36; /*very dark grey - text colour */
+  font-family: courier; /*very basic web-compatible font */
 }
 
 header { /*styles for the header section */
-  background-color: #770000;
-  color: #D53232;
+  background-color: #DCDCDD;
+  color: #292F36;
 }
 
 div {
   /*this acts on *all* divs */
   width: 500px;
   margin: 0 auto; /*centres divs horizontally*/
-  background-color: #874444/*white*/
+  background-color: ##641A1B;  /*white*/
   padding: 10px;
 }
 
@@ -44,7 +44,7 @@ img { /*styles for images */
 }
 
 a { /*styles for hyperlinks */
-  color: #8D1900; /*pink*/
+  color: #FF6B6B; /*pink*/
 }
 
 footer { /*styles for the footer */
