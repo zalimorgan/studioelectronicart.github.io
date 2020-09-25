@@ -1,0 +1,62 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+/*
+
+Colours used:
+White : #FFFFFF
+Gunmetal (almost black): #292F36
+Green: #35FF69
+Pink: #FF6B6B
+Light grey: #DCDCDD
+
+*/
+
+body { /*defines styles for the whole page that you can override by changing styles for specific elements */
+  background-color: #C9F7C9; /*grey*/
+  color: #E55A6D; /*very dark grey - text colour */
+  font-family: "Lucida Console"; /*very basic web-compatible font */
+	font-size: 25px 
+}
+
+header { /*styles for the header section */
+  background-color: #C9F7C9;
+  color: #E55A6D;
+}
+
+div {
+  /*this acts on *all* divs */
+  width: 500px;
+  margin: 0 auto; /*centres divs horizontally*/
+  background-color: #FCFF7A;  /*white*/
+  padding: 10px;
+	#demoObject {
+-webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+background: #9400D3;
+}
+body#tinymce {
+background: #FFFFFF
+}
+}
+
+h1 { /*styling for heading 1 */
+}
+
+
+p { /*styles for paragraphs */
+
+}
+
+img { /*styles for images */
+
+}
+
+a { /*styles for hyperlinks */
+  color: #FF6B6B; /*pink*/
+}
+
+footer { /*styles for the footer */
+  background-color: #C9F7C9;
+  color: #E55A6D;
+}
