@@ -2,7 +2,9 @@
 /* CSS Document */
 /* Do not edit this document */
 body {
-  background-color: #ff9a73;
+  /*background-color: #ff9a73;*/
+  background: radial-gradient(#fc5818, #ff9a73);
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .main {
@@ -38,11 +40,13 @@ body {
   -moz-background-clip: padding;
   -webkit-background-clip: padding;
   background-clip: padding-box;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .student-box-content {
   margin: 0 auto;
   display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 footer {
