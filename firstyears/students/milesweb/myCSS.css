@@ -13,41 +13,42 @@ Light grey: #DCDCDD
 */
 
 body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #DCDCDD; /*grey*/
+  background-color: #5F905B /
   color: #292F36; /*very dark grey - text colour */
-  font-family: monospace; /*very basic web-compatible font */
+  font-family: arizonia, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; /*very basic web-compatible font */
 }
 
 header { /*styles for the header section */
-  background-color: #DCDCDD;
-  color: #292F36;
+  background-color: #224919;
+  color: #7FE166;
 }
 
 div {
   /*this acts on *all* divs */
-  width: 500px;
+  width: 1000px;
   margin: 0 auto; /*centres divs horizontally*/
-  background-color: #FFFFFF;  /*white*/
+  background-color: #145119/
   padding: 10px;
 }
 
-h1 { /*styling for heading 1 */
+h1 {background: #11620A /*styling for heading 1 */
 
 }
 
-p { /*styles for paragraphs */
+p { font-family: "alex-brush"
+	/*styles for paragraphs */
 
 }
 
-img { /*styles for images */
+img { 
 
 }
 
 a { /*styles for hyperlinks */
-  color: #FF6B6B; /*pink*/
+  color: #205651; /*orange*/
 }
 
 footer { /*styles for the footer */
-  background-color: #DCDCDD;
-  color: #292F36;
+  background-color: #006733;
+  color: #FFFFD5;
 }
