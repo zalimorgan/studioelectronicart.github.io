@@ -13,27 +13,31 @@ Light grey: #DCDCDD
 */
 
 body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #1400E2;/*blue*/
-  color: #FFFB00;/*acid yellow - text colour */
+  background-color: #FFFFFF; /*grey*/
+  color: #002cff; /*very dark grey - text colour */
   font-family: monospace; /*very basic web-compatible font */
 }
 
 header { /*styles for the header section */
-  background-color: #1400e2;
-  color: #fffb00;
+  background-color: #FFFFFF;
+  color: #002CFF;
 }
 
 div {
   /*this acts on *all* divs */
-  width: 100px;
+  width: 500px;
   margin: 0 auto; /*centres divs horizontally*/
-  background-color: #F8008D;  /*pink*/
+  background-color: #FFFFFF;  /*white*/
   padding: 10px;
 }
 
-h1 { /*styling for heading 1 */
-
-}
+h1 { /*styling for heading 1 */ 
+    animation-timing-function: ease-out;
+    transform-origin: bottom center;
+    animation-name: blackMirrorTextVersion;
+    animation-duration: .01s;
+    animation-iteration-count: 600;
+  }
 
 p { /*styles for paragraphs */
 
@@ -44,10 +48,10 @@ img { /*styles for images */
 }
 
 a { /*styles for hyperlinks */
-  color: #01FB00/*flouro green*/
+  color: #FF6B6B; /*pink*/
 }
 
 footer { /*styles for the footer */
-  background-color: #;
-  color: #01fb00;
+  background-color: #DCDCDD;
+  color: #292F36;
 }
