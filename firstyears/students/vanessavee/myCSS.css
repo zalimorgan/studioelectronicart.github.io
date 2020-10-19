@@ -13,26 +13,28 @@ Light grey: #DCDCDD
 */
 
 body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #DCDCDD; /*grey*/
+  background-color: #e6e6ff; /*grey*/
   color: #292F36; /*very dark grey - text colour */
   font-family: monospace; /*very basic web-compatible font */
+  
 }
 
 header { /*styles for the header section */
-  background-color: #DCDCDD;
+  background-color:
   color: #292F36;
 }
 
 div {
   /*this acts on *all* divs */
-  width: 500px;
+  width: 900px;
   margin: 0 auto; /*centres divs horizontally*/
-  background-color: #FFFFFF;  /*white*/
+  background-color: #e6e6ff;  /*white*/
   padding: 10px;
 }
 
 h1 { /*styling for heading 1 */
-color: #50099C
+color: #50099C;
+text-align: center;
 }
 
 h2 { 
@@ -52,6 +54,6 @@ a { /*styles for hyperlinks */
 }
 
 footer { /*styles for the footer */
-  background-color: #DCDCDD;
+  background-color: 
   color: #292F36;
 }
