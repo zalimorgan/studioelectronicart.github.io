@@ -1,0 +1,219 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+/*
+
+Colours used:
+White : #FFFFFF
+Gunmetal (almost black): #292F36
+Green: #35FF69
+Pink: #FF6B6B
+Light grey: #DCDCDD
+
+*/
+
+body { /*defines styles for the whole page that you can override by changing styles for specific elements */
+  background-color: #ff99ff; /*grey*/
+  color: #292F36; /*very dark grey - text colour */
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; /*very basic web-compatible font */
+	height: 100%;
+	
+}
+
+header {
+	height: 20vh;
+} 
+  
+
+#pagecontainer {
+	position: relative;
+	min-height: 100vh;	
+}
+
+.button1 {align-content: center;
+		color: royalblue;
+		font-size: 10pt;
+		margin-left: 20vh;
+		border-bottom-style: groove;
+		border-radius: 5px;
+		padding: 5px;
+		
+		}
+
+.button2 {width: 400px;
+		height: 400px;
+  		margin: auto; 
+		margin-top: auto;/*centres divs horizontally*/
+  		padding-right: 15px;
+		border-color: red;
+		border-style: double;
+		border-width: 8px;
+		border-radius: 50%;
+		float: left;
+		vertical-align: middle;
+		font-size: 70px;
+		text-align: center;
+		color: black;
+		background-color: whitesmoke;
+		box-shadow: 0 20px #999;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		outline: none;
+}
+	
+
+
+.button2:hover {background-color: red}
+
+.button2:active
+  {background-color: #3e8e41;
+  box-shadow: 0 20px #666;
+  transform: translateY(8px);
+}
+
+
+.button3:hover {background-color: greenyellow
+}
+
+.button3:active
+  {background-color: #3e8e41;
+  box-shadow: 0 20px #666;
+  transform: translateY(8px);
+}
+
+.button3 {width:400px;
+		height: 400px;
+  		margin: auto; 
+		margin-top: auto;/*centres divs horizontally*/
+  		padding: 10px;
+		border-color: blueviolet;
+		border-style: double;
+		border-width: 5px;
+		border-radius: 50%;
+		float: right;
+		vertical-align: middle;
+		font-size: 70px;
+		text-align: center;
+		color: black;
+		background-color: whitesmoke;
+		box-shadow: 0 20px #999;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		outline: none;
+	}
+
+
+
+.button4 {width:400px;
+		height: 400px;
+  		margin: auto; 
+		margin-top: auto;/*centres divs horizontally*/
+  		padding: 10px;
+		border-color: orange;
+		border-style: double;
+		border-width: 8px;
+		border-radius: 50%;
+		float: right;
+		vertical-align: right;
+		font-size: 70px;
+		text-align: center;
+		color: black;
+		background-color: whitesmoke;
+		box-shadow: 0 20px #999;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		outline: none;
+	}
+
+.button4:hover {background-color: orange;
+}
+
+.button4:active
+  {background-color: #3e8e41;
+  box-shadow: 0 20px #666;
+  transform: translateY(8px);
+}
+
+
+#mainblock {
+  /*this acts on *all* divs */
+  	width: 400px;
+	height: 400px;
+  	margin: auto; 
+	margin-top: auto;/*centres divs horizontally*/
+  	padding: 10px;
+	border-color: greenyellow;
+	border-style: solid;
+	border-width: 5px;
+	float: center;
+	vertical-align: middle;
+}
+
+#mainblock2 {
+  /*this acts on *all* divs */
+  	width: 600px;
+	height: 600px;
+  	margin: auto; 
+	margin-top: auto;/*centres divs horizontally*/
+  	padding: 10px;
+	float: center;
+	vertical-align: middle;
+}
+	
+#leftblock {
+	width: 200px;
+	height: 300px;
+	align-content: center;
+	margin-left: 300px;
+	
+}
+
+#rightblock {
+	width: 200px;
+	height: 300px;
+	float: right;
+	align-content: center;
+	margin-right: 200px;
+	margin-bottom: 200px;
+	
+}
+
+h1 { font:italic; 
+	/*styling for heading 1 */
+	color: yellowgreen;
+	font-size: 55px;
+
+}
+
+h2 {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 100px;
+	text-align: center;
+	color: lawngreen;
+}
+
+h3 {font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 14pt;
+	colour: darkblue;
+	text-align: center;
+}
+	
+
+h4 { font-size: 12pt;
+	text-align: center;
+	position: 20vh;
+	color: black;
+	
+}
+
+img { /*styles for images */
+
+}
+
+a { /*styles for hyperlinks */
+  color: #FF6B6B; /*pink*/
+}
+
+footer { /*styles for the footer */
+  position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #BCAFAF;
+	
+}

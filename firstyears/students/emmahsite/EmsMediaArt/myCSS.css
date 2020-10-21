@@ -1,0 +1,135 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+/*
+
+Colours used:
+White : #FFFFFF
+Gunmetal (almost black): #292F36
+Green: #35FF69
+Pink: #FF6B6B
+Light grey: #DCDCDD
+
+*/
+
+body { /*defines styles for the whole page that you can override by changing styles for specific elements */
+  background-color: #ff99ff; /*grey*/
+  color: #292F36; /*very dark grey - text colour */
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; /*very basic web-compatible font */
+	height: 100%;
+	
+}
+
+header {
+	height: 20vh;
+} 
+
+
+#pagecontainer {
+	position: relative;
+	min-height: 100vh;	
+}
+
+.button1 {align-content: center;
+		color: dimgrey;
+		font-size: 10pt;
+		border-bottom-style: groove;
+		border-radius: 5px;
+		
+		margin-left: 5vh;
+		margin-right: 5vh;
+		}
+		
+.button1:hover {background-color: hotpink;
+
+}
+
+.button1:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+
+#mainblock {
+  /*this acts on *all* divs */
+  	width: 600px;
+	height: 600px;
+  	margin: auto; 
+	margin-top: auto;/*centres divs horizontally*/
+  	padding: 10px;
+	border-color: greenyellow;
+	border-style: solid;
+	border-width: 5px;
+	float: center;
+	vertical-align: middle;
+}
+
+#menublock {
+  /*this acts on *all* divs */
+  	width: 300px;
+	height: 250px;
+  	margin: auto; 
+	margin-top: auto;/*centres divs horizontally*/
+  	padding: 10px;
+	align-content: center;
+	float: center;
+	vertical-align: middle;
+}
+
+#leftblock {
+	width: 300px;
+	height: 300px;
+	float: left;
+	align-content: center;
+	
+	
+}
+
+#rightblock {
+	width: 300px;
+	height: 300px;
+	float: right;
+	align-content: center;
+	
+}
+
+
+
+h1 { font:italic; 
+	/*styling for heading 1 */
+	color: yellowgreen;
+	font-size: 100px;
+
+}
+
+h2 {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 75pt;
+	text-align: center;
+	color: lawngreen;
+}
+
+h3 {font-family: times new Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 14pt;
+	colour: darkblue;
+	text-align: center;
+}
+	
+
+p { /*styles for paragraphs */
+
+}
+
+img { /*styles for images */
+
+}
+
+a { /*styles for hyperlinks */
+  color: #FF6B6B; /*pink*/
+}
+
+footer { /*styles for the footer */
+  position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #BCAFAF;
+	
+}
