@@ -63,12 +63,12 @@ img { /*styles for images */
 }
 
 a { /*styles for hyperlinks */
-    color: #000000; /*pink*/
-    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-    font-style: italic;
-    font-weight: 900;
-    font-size: x-large;
-    text-decoration: none;
+	color: #000000; /*pink*/
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: italic;
+	font-weight: 900;
+	font-size: large;
+	text-decoration: none;
 }
 
 footer { /*styles for the footer */
