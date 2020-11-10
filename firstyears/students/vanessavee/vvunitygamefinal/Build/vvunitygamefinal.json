@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Home Unity game",
+"productVersion": "0.1",
+"dataUrl": "vvunitygamefinal.data.unityweb",
+"wasmCodeUrl": "vvunitygamefinal.wasm.code.unityweb",
+"wasmFrameworkUrl": "vvunitygamefinal.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.1f1"
+}
