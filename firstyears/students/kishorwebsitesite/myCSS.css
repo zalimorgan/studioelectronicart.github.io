@@ -72,10 +72,10 @@ a { /*styles for hyperlinks */
 }
 
 footer { /*styles for the footer */
-    background-color: rgba(0,0,0,0.00);
-    color: rgba(255,255,255,1.00);
-    text-align: center;
-    text-shadow: 0px 0px #000000;
-    -webkit-box-shadow: 0px 0px rgba(15,14,14,1.00);
-    box-shadow: 0px 0px rgba(15,14,14,1.00);
+	background-color: rgba(0,0,0,0.00);
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	text-shadow: 0px 0px #000000;
+	-webkit-box-shadow: 0px 0px rgba(15,14,14,1.00);
+	box-shadow: 0px 0px rgba(15,14,14,1.00);
 }
