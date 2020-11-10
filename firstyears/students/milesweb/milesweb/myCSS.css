@@ -13,8 +13,8 @@ Light grey: #DCDCDD
 */
 
 body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #5F905B /
-  color: #292F36; /*very dark grey - text colour */
+  background-color: #36A815 /
+  color: #292F36; 
   font-family: arizonia, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; /*very basic web-compatible font */
 }
 
@@ -31,21 +31,21 @@ div {
   padding: 10px;
 }
 
-h1 {background: #11620A /*styling for heading 1 */
+h1 {background: #099308 /*styling for heading 1 */
 
 }
 
-p { font-family: "alex-brush"
+p { font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'
 	/*styles for paragraphs */
 
 }
 
-img { 
+img { color: #048B10;
 
 }
 
 a { /*styles for hyperlinks */
-  color: #205651; /*orange*/
+  color: #205651;
 }
 
 footer { /*styles for the footer */
