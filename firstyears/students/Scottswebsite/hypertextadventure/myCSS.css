@@ -13,14 +13,15 @@ Light grey: #DCDCDD
 */
 
 body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #DCDCDD; /*grey*/
-  color: #292F36; /*very dark grey - text colour */
-  font-family: monospace; /*very basic web-compatible font */
+	background-color: #FFFFFF; /*grey*/
+	color: #292F36; /*very dark grey - text colour */
+	font-family: monospace; /*very basic web-compatible font */
+	height: 20cm;
 }
 
 header { /*styles for the header section */
-  background-color: #DCDCDD;
-  color: #292F36;
+	background-color: #FFFFFF;
+	color: #292F36;
 }
 
 div {
@@ -40,7 +41,7 @@ p { /*styles for paragraphs */
 }
 
 img { /*styles for images */
-
+	background-color: #FFFFFF;
 }
 
 a { /*styles for hyperlinks */
@@ -48,6 +49,6 @@ a { /*styles for hyperlinks */
 }
 
 footer { /*styles for the footer */
-  background-color: #DCDCDD;
-  color: #292F36;
+	background-color: #FFFFFF;
+	color: #292F36;
 }
