@@ -42,6 +42,7 @@ p { /*styles for paragraphs */
 
 img { /*styles for images */
 	background-color: #FFFFFF;
+	text-align: center;
 }
 
 a { /*styles for hyperlinks */
