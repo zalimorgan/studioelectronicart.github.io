@@ -13,26 +13,33 @@ Light grey: #DCDCDD
 */
 
 body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #DCDCDD; /*grey*/
-  color: #292F36; /*very dark grey - text colour */
-  font-family: monospace; /*very basic web-compatible font */
+    background-color: #DCDCDD; /*grey*/
+    color: #292F36; /*very dark grey - text colour */
+    font-family: monospace; /*very basic web-compatible font */
+    border: thick solid #000000;
 }
 
 header { /*styles for the header section */
-  background-color: #DCDCDD;
-  color: #292F36;
+    /* [disabled]background-color: #FFFFFF; */
+    color: #000000;
+    text-align: center;
+    text-shadow: 0px 0px #0B0B0B;
 }
 
 div {
-  /*this acts on *all* divs */
-  width: 500px;
-  margin: 0 auto; /*centres divs horizontally*/
-  background-color: #FFFFFF;  /*white*/
-  padding: 10px;
+    /*this acts on *all* divs */
+    width: 500px;
+    margin: 0 auto; /*centres divs horizontally*/
+    background-color: #FFFFFF;  /*white*/
+    padding: 10px;
+    text-align: center;
 }
 
 h1 { /*styling for heading 1 */
-
+    font-family: stencil-std;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 p { /*styles for paragraphs */
@@ -40,7 +47,7 @@ p { /*styles for paragraphs */
 }
 
 img { /*styles for images */
-
+    text-align: left;
 }
 
 a { /*styles for hyperlinks */
