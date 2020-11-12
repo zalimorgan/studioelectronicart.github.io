@@ -1,0 +1,54 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+/*
+
+Colours used:
+White : #FFFFFF
+Gunmetal (almost black): #292F36
+Green: #35FF69
+Pink: #FF6B6B
+Light grey: #DCDCDD
+
+*/
+
+body { /*defines styles for the whole page that you can override by changing styles for specific elements */
+    background-color: #AEC9DB; /*grey*/
+    color: #D6BADC; /*very dark grey - text colour */
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; /*very basic web-compatible font */
+	font-size: 80px;
+}
+
+header { /*styles for the header section */
+    color: #FFFFFF;
+}
+
+div {
+    /*this acts on *all* divs */
+    color: #FFFFFF;
+	width: 500px;
+    margin: 0 auto; /*centres divs horizontally*/
+    padding: 10px;
+	font-size: 60px;
+}
+
+h1 { /*styling for heading 1 */
+
+}
+
+p { /*styles for paragraphs */
+
+}
+
+img { /*styles for images */
+
+}
+
+a { /*styles for hyperlinks */
+    color: #D6BADC; /*pink*/
+}
+
+footer { /*styles for the footer */
+        color: #FFFFFF;
+		font-size: 30px;
+}
