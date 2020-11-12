@@ -11,115 +11,53 @@ Pink: #FF6B6B
 Light grey: #DCDCDD
 
 */
-
-body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #ff99ff; /*grey*/
-  color: #292F36; /*very dark grey - text colour */
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; /*very basic web-compatible font */
-	height: 100%;
-	
-}
-
-header {
-	height: 20vh;
-} 
-
-
-#pagecontainer {
-	position: relative;
-	min-height: 100vh;	
-}
-
-.button1 {align-content: center;
-		color: dimgrey;
-		font-size: 10pt;
-		border-bottom-style: groove;
-		border-radius: 5px;
-		
-		margin-left: 5vh;
-		margin-right: 5vh;
-		}
-		
-.button1:hover {background-color: hotpink;
+body, html {
+  height: 100%;
+  margin: 0;
+	color: #292F36; /*very dark grey - text colour */
+  font-family: monospace;
+	background-color: burlywood;
 
 }
 
-.button1:active {
-  background-color: #3e8e41;
-  transform: translateY(4px);
+	/*very basic web-compatible font */
+
+
+header { /*styles for the header section */
+	font-size: 60pt;
+  color: #292F36;
+	padding-top: 50px;
+	padding-left: 50px;
+
 }
 
-#mainblock {
+div {
   /*this acts on *all* divs */
-  	width: 600px;
-	height: 600px;
-  	margin: auto; 
-	margin-top: auto;/*centres divs horizontally*/
-  	padding: 10px;
-	border-color: greenyellow;
-	border-style: solid;
-	border-width: 5px;
+  width: 550px;
+  margin: 0 auto; /*centres divs horizontally*/
+   /*white*/
+  padding: 20px;
+	padding-bottom: 20px;
+}
+
+
+h1 { font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 20pt;
+	color: #292F36;
 	float: center;
-	vertical-align: middle;
-}
-
-#menublock {
-  /*this acts on *all* divs */
-  	width: 300px;
-	height: 250px;
-  	margin: auto; 
-	margin-top: auto;/*centres divs horizontally*/
-  	padding: 10px;
-	align-content: center;
-	float: center;
-	vertical-align: middle;
-}
-
-#leftblock {
-	width: 300px;
-	height: 300px;
-	float: left;
-	align-content: center;
-	
-	
-}
-
-#rightblock {
-	width: 300px;
-	height: 300px;
-	float: right;
-	align-content: center;
-	
-}
-
-
-
-h1 { font:italic; 
+	padding-left: 300px;
+	padding-top: 30px;
 	/*styling for heading 1 */
-	color: yellowgreen;
-	font-size: 100px;
 
 }
-
-h2 {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 75pt;
-	text-align: center;
-	color: lawngreen;
-}
-
-h3 {font-family: times new Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 14pt;
-	colour: darkblue;
-	text-align: center;
-}
-	
 
 p { /*styles for paragraphs */
 
 }
 
-img { /*styles for images */
 
+img{ /* The image used */
+ 
 }
 
 a { /*styles for hyperlinks */
@@ -127,9 +65,48 @@ a { /*styles for hyperlinks */
 }
 
 footer { /*styles for the footer */
-  position: absolute;
-	bottom: 0;
-	width: 100%;
-	color: #BCAFAF;
-	
+  background-color: burlywood;
+  color: #292F36;
 }
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: left;
+}
+
+
+.button {
+  padding: 8px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  background-color:white;
+  color: black;
+ box-shadow: 0 3px #999;
+  border: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  font-style: monospace;
+	
+ 
+}
+
+.button:hover {background-color: pink}
+
+.button:active {
+  background-color: maroon;
+  box-shadow: 0 5px #666;
+  transform: translateY(8px);
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
