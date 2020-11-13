@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Dreamgirl",
+"productVersion": "0.1",
+"dataUrl": "Dreamgirl_Final_Emma_Harris_14835461.data.unityweb",
+"wasmCodeUrl": "Dreamgirl_Final_Emma_Harris_14835461.wasm.code.unityweb",
+"wasmFrameworkUrl": "Dreamgirl_Final_Emma_Harris_14835461.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.1f1"
+}
