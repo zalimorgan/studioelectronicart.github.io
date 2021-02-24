@@ -2,8 +2,7 @@
 /* CSS Document */
 /* Do not edit this document */
 body {
-  /*background-color: #ff9a73;*/
-  background: radial-gradient(#fc5818, #ff9a73);
+  background: radial-gradient(#acf6c8, #cfffe5);
   font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -36,7 +35,7 @@ body {
   border: 8px solid rgba(0, 0, 0, 0);
   margin: auto;
   text-align:center;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0);
   -moz-background-clip: padding;
   -webkit-background-clip: padding;
   background-clip: padding-box;
