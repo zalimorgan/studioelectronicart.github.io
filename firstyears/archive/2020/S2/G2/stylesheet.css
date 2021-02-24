@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Do not edit this document */
+body {
+  /*background-color: #ff9a73;*/
+  background: radial-gradient(#fc5818, #ff9a73);
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.pure-g {
+  padding: 1em;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.pure-g > div {
+  box-sizing: border-box;
+}
+
+.header-box {
+  padding: 2em;
+}
+
+.header-box h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8vw;
+  overflow-wrap: break-word;
+}
+
+.student-box {
+  padding: 1em;
+  border: 8px solid rgba(0, 0, 0, 0);
+  margin: auto;
+  text-align:center;
+  background-color: #fff;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.student-box-content {
+  margin: 0 auto;
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+footer {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  background-color:inherit;
+  text-decoration:underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+
+.pure-menu-item {
+  font-family: 'IBM Plex Mono', monospace;
+  display: block;
+  padding: 1.2em;
+}
+
+.pure-menu-heading {
+  font-family: 'IBM Plex Mono', monospace;
+}
