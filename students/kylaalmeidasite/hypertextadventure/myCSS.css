@@ -1,0 +1,51 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+/*
+
+Colours used:
+White : #FFFFFF
+Gunmetal (almost black): #292F36
+Pink: #FF6B6B
+Light grey: #DCDCDD
+
+*/
+
+body { /*defines styles for the whole page that you can override by changing styles for specific elements */
+  background-color: #000103; /*rich black*/
+  color: #FFFFFA; /*text colour: light cyan */
+  font-family: monospace; /*very basic web-compatible font */
+}
+
+header { /*styles for the header section */
+  background-color: #28262C;
+  color: #FFAFAD;
+}
+
+div {
+  /*this acts on *all* divs */
+  margin: 0 auto; /*centres divs horizontally*/
+  background-color: #28262C;  /*white*/
+  padding: 10px; /*how much space is between the edge of the div and the stuff in it*/
+}
+
+h1 { /*styling for heading 1 */
+
+}
+
+p { /*styles for paragraphs */
+
+}
+
+img { /*styles for images */
+
+}
+
+a { /*styles for hyperlinks */
+  color: #FFAFAD; /*mandarin*/
+}
+
+footer { /*styles for the footer */
+  background-color: #28262C;
+  color: #AEADAE;
+}
