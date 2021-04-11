@@ -1,0 +1,59 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+/*
+
+Colours used:
+White : #FFFFFF
+Gunmetal (almost black): #292F36
+Pink: #FF6B6B
+Light grey: #DCDCDD
+
+*/
+
+body {
+    font-family: "bookman old style";
+    background-color: #28262C; /*rich black*/
+    color: #FFFFFA; /*text colour: light cyan */
+    font-family: monospace; /*very basic web-compatible font */
+}
+
+:target {
+    color: FFFFFF;
+    background: 28262C;
+}
+h3,
+h1 {
+    color: #FFFFFA;
+}
+img {
+    border: 3px solid #292F36;
+}
+body {
+    counter-reset: srl;
+}
+h3::before {
+    counter-increment: srl;
+    content: counter(srl)". ";
+}
+
+h1 { /*styling for heading 1 */
+
+}
+
+p { /*styles for paragraphs */
+
+}
+
+img { /*styles for images */
+
+}
+
+a { /*styles for hyperlinks */
+  color: #FFAFAD; /*mandarin*/
+}
+
+footer { /*styles for the footer */
+  background-color: #28262C;
+  color: #AEADAE;
+}
