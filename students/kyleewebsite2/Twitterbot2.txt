@@ -1,0 +1,101 @@
+{
+  "origin": [
+    "#emotion.capitalize# #emoji#.",
+    "I #emotion# #food# #emoji#.",
+    "#color.capitalize# makes me #emotion# #weather# #nature# #emoji#.",
+    "#emoji# #emoji# #emoji# #emoji# #emoji# #emoji#.",
+    "#color.capitalize# #animal.s# #frequency# #emotion# #nature#."
+  ],
+  "food": [
+    "pizza",
+    "burgers",
+    "lollies",
+    "fruit",
+    "veges",
+    "taco's",
+    "pasta",
+    "sushi"
+  ],
+  "emotion": [
+    "love",
+    "hate",
+    "happy",
+    "sad",
+    "mildy enjoy",
+    "tolerate",
+    "enjoy",
+    "like",
+    "appreciate"
+  ],
+  "frequency": [
+    "rarely",
+    "generally",
+    "usually",
+    "regularly",
+    "much",
+    "often",
+    "almost always",
+    "sometimes"
+  ],
+  "emoji": [
+    "😀",
+    "😍",
+    "🤐",
+    "😴",
+    "😂",
+    "😛",
+    "😆",
+    "🤨"
+  ],
+  "color": [
+    "teal",
+    "pink",
+    "rainbow",
+    "jade",
+    "navy",
+    "spice",
+    "violet",
+    "peacock",
+    "seafoam"
+  ],
+  "animal": [
+    "unicorn",
+    "magpie",
+    "kookaburra",
+    "huntsman",
+    "dingo",
+    "galah",
+    "owl",
+    "blue-tongue",
+    "brumby",
+    "duck",
+    "kitten"
+  ],
+  "mood": [
+    "furious",
+    "indignant",
+    "impassioned",
+    "wistful",
+    "astute",
+    "courteous"
+  ],
+  "nature": [
+    "ocean",
+    "mountain",
+    "forest",
+    "river",
+    "tree",
+    "sky",
+    "dirt",
+    "rock",
+    "desert"
+  ],
+  "weather": [
+    "windy",
+    "cloudy",
+    "stormy",
+    "dry",
+    "rainy",
+    "humid"
+  ]
+}

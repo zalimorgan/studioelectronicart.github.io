@@ -1,0 +1,27 @@
+{
+  "origin": [ "I love #food# #color# food, it's #adjectives#"
+  ],
+  "color": [
+    "green",
+    "blue",
+    "red",
+    "purple",
+    "pastel orange",
+    "yellow"
+    ],
+  
+  "adjectives": [
+    "pretty",
+    "beautiful",
+    "gross",
+    "ugly",
+    "nice"
+    ],
+  
+  "food": [
+    "delicious",
+    "yum",
+    "gross"
+    ]
+  
+}

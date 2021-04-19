@@ -15,31 +15,38 @@ Light grey: #DCDCDD
 */
 
 body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #DCDCDD; /*grey*/
-  color: #292F36; /*text colour: dark grey */
-  font-family: 'Brush Script MT'; /*very basic web-compatible font */
+  font-family: 'Brush Script MT' Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; /*very basic web-compatible font */
+
+background: #CE5937;
+background: -moz-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #25C536 100%);
+background: -webkit-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #25C536 100%);
+background: linear-gradient(135deg, #CE5937 0%, #1C6EA4 50%, #25C536 100%);
 }
 
 header { /*styles for the header section */
-  background-color: #FFDCDC;
-  color: #292F36;
-  padding: 500px;
+  color: #04083D;
+  padding: 50px;
+
+background: #CE5937;
+background: -moz-radial-gradient(center, #CE5937 0%, #1C6EA4 50%, #3DC539 100%);
+background: -webkit-radial-gradient(center, #CE5937 0%, #1C6EA4 50%, #3DC539 100%);
+background: radial-gradient(ellipse at center, #CE5937 0%, #1C6EA4 50%, #3DC539 100%);
 }
+
 
 div {
   /*this acts on *all* divs */
   margin: 0 auto; /*centres divs horizontally*/
-  background-color: #643fb9;  /*Purple*/
-  bgcolor: #3b9152;
-  padding: 100px; /*how much space is between the edge of the div and the stuff in it*/
+  padding: 50px; /*how much space is between the edge of the div and the stuff in it*/
+  background: #D0E4F5 image(src="img/bigcoffee.jpg" width="185" height="200">) repeat scroll 0 0;
 }
 
 h1 { /*styling for heading 1 */
-
+color: #010323; /*dark blue*/
 }
 
 p { /*styles for paragraphs */
-
+color: #010323; /*dark blue*/
 }
 
 img { /*styles for images */
@@ -47,10 +54,10 @@ img { /*styles for images */
 }
 
 a { /*styles for hyperlinks */
-  color: #292F36; /*pink*/
+  color: #010323; /*dark blue*/
 }
 
 footer { /*styles for the footer */
-  background-color: #DCDCDD;
-  color: #292F36;
+  background-color: #C7D910;
+  color: #010323;
 }
