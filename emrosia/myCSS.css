@@ -1,0 +1,60 @@
+/*All the basic elements on your page are here, with barely any
+  styling. Check out a CSS generator to add cool styles!*/
+
+/*
+
+Colours used:
+White : #FFFFFF
+Gunmetal (almost black): #292F36
+Pink: #FF6B6B
+Light grey: #DCDCDD
+
+*/
+
+body { /*defines styles for the whole page that you can override by changing styles for specific elements */
+  background-image: radial-gradient(circle, #14adc4, #00a7df, #009df8, #1d8cff, #8c71ff, #c557e3, #ea36be, #ff0493, #ff4768, #ff863c, #ffc00c, #f4f42b); 
+	
+
+  color: #FFFFFF; /*text colour: dark grey */
+  font-family: monospace; /*very basic web-compatible font */
+	
+}
+
+
+header { font-size: 100px /*styles for the header section */
+ 
+  color: #FFFFFF;
+}
+
+div {
+  /*this acts on *all* divs */
+  margin: 0 auto; /*centres divs horizontally*/
+
+  padding: 10px; /*how much space is between the edge of the div and the stuff in it*/
+}
+
+h1 { font-size: 100px
+ color: #FFFFFF 
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+} /*styles for paragraphs */
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+a { /*styles for hyperlinks */
+  color: #FFCCF6/
+}
+
+footer { /*styles for the footer */
+ 
+  color: #FFFFFF;
+}
