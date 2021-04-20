@@ -19,7 +19,7 @@ body { /*defines styles for the whole page that you can override by changing sty
 
 header { /*styles for the header section */
   background-color: #28262C;
-  color: #FFAFAD;
+  color: #FFFFFA;
 }
 
 div {
@@ -42,7 +42,7 @@ img { /*styles for images */
 }
 
 a { /*styles for hyperlinks */
-  color: #FFAFAD; /*mandarin*/
+  color:red; /*mandarin*/
 }
 
 footer { /*styles for the footer */

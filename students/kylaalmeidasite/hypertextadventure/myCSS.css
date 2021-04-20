@@ -11,22 +11,30 @@ Light grey: #DCDCDD
 
 */
 
-body { /*defines styles for the whole page that you can override by changing styles for specific elements */
-  background-color: #000103; /*rich black*/
-  color: #FFFFFA; /*text colour: light cyan */
-  font-family: monospace; /*very basic web-compatible font */
+body {
+    font-family: "bookman old style";
+    background-color: #28262C; /*rich black*/
+    color: #FFFFFA; /*text colour: light cyan */
+    font-family: monospace; /*very basic web-compatible font */
 }
 
-header { /*styles for the header section */
-  background-color: #28262C;
-  color: #FFAFAD;
+:target {
+    color: FFFFFF;
+    background: 28262C;
 }
-
-div {
-  /*this acts on *all* divs */
-  margin: 0 auto; /*centres divs horizontally*/
-  background-color: #28262C;  /*white*/
-  padding: 10px; /*how much space is between the edge of the div and the stuff in it*/
+h3,
+h1 {
+    color: #FFFFFA;
+}
+img {
+    border: 3px solid #292F36;
+}
+body {
+    counter-reset: srl;
+}
+h3::before {
+    counter-increment: srl;
+    content: counter(srl)". ";
 }
 
 h1 { /*styling for heading 1 */
