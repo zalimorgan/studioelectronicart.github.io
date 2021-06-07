@@ -124,40 +124,6 @@ button.active {
     inset -2px -2px #dfdfdf, inset 2px 2px #808080;
 }
 
-@media (max-width: 480px) {
-  aside {
-    display: none;
-  }
-
-  main {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0;
-    padding: 16px;
-  }
-
-  hr {
-    width: 100%;
-  }
-
-  p {
-    width: 100%;
-  }
-
-  h3,
-  h4 {
-    flex: 0;
-  }
-
-  .component {
-    display: block;
-    margin-top: 24px;
-  }
-
-  pre {
-    overflow-x: scroll;
-  }
-}
 
 .go-site {
   margin-right: 10px;
