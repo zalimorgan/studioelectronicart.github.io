@@ -3,16 +3,14 @@
 <!--DO NOT EDIT THIS DOCUMENT-->
 <head>
   <meta charset="UTF-8">
-  <!--load pure CSS-->
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
-	<link rel="stylesheet" href="css/woah.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--load css-->
+  <title>First Year Studio | Studio Electronic Art</title>
+
+  <!--load 98.css-->
+  <link rel="stylesheet" href="https://unpkg.com/98.css">
+  <!--load local css, based on 98.css docs page-->
   <link rel="stylesheet" href="css/stylesheet.css">
-  <!--Google fonts-->
-  <!--IBM Plex Mono Medium-->
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+
   <!--favicon-->
   <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
@@ -24,192 +22,358 @@
   <!--load jQuery UI-->
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script> window.jQuery || document.write('<script src="../js/jquery-ui.min.js"><\/script>')</script>
-  <!--load js-->
+
+  <!--jquery functionality-->
   <script>
   $(document).ready(function(){
-    $("body").hide();
-    $("body").fadeIn('slow');
-  });
-  </script>
 
-  <title>First Year Studio | Studio Electronic Art</title>
+    //random div positioning
+    //function to generate random numbers in range
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+    //for each student div, place randomly up to max margin
+    $('.student').each(function(){
+      $(this).css({'marginTop' : getRandomInt(0, 700), 'marginLeft' : getRandomInt(-40, 700)});
+    });
+
+    //brings student divs to front on click
+    $(".student").click(function() {
+      $(this).parent().append(this);
+    }); // end bring to front
+
+    //close button functionality
+    $(".student-close").click(function() {
+      $(this).parents(".student").hide();
+    }); //end close button
+
+    //hide divs on coming soon button click
+    $(".coming-soon").click(function() {
+      $(this).parents(".student").hide();
+    })
+
+    //make student divs draggable
+    $(".student").draggable();
+
+    //menu functionality: show selected student div and bring to front
+    $(".students-list").click(function() {
+      var divname = $(this).data('divid');
+      $(divname).show();
+      $(divname).parent().append($(divname));
+    }); //end click
+  });// /end document ready
+  </script>
 </head>
 
-
 <body>
-  <section class="main">
-    <nav class="pure-menu pure-menu-horizontal">
-      <a href="../index.html" class="pure-menu-heading pure-menu-link">Studio Electronic Art</a>
-      <ul class="pure-menu-list">
-        <li class="pure-menu-item">
-          <a href="index.html">Home</a>
+  <aside class="window" style="">
+    <div class="title-bar">
+      <div class="title-bar-text">Menu</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <nav class="window-body">
+      <ul class="tree-view">
+        <li><a href="#top">Studio Electronic Art</a></li>
+        <li><a href="#students">Students</a>
+          <ul>
+            <li class="students-list" data-divid="#tahlia">Tahlia</li>
+            <li class="students-list" data-divid="#annabelle">Annabelle</li>
+            <li class="students-list" data-divid="#lauren">Lauren</li>
+            <li class="students-list" data-divid="#keziah">Keziah</li>
+            <li class="students-list" data-divid="#lulu">Lulu</li>
+            <li class="students-list" data-divid="#isaac">Isaac</li>
+            <li class="students-list" data-divid="#jaime">Jaime</li>
+            <li class="students-list" data-divid="#lili">Lili</li>
+            <li class="students-list" data-divid="#monique">Monique</li>
+            <li class="students-list" data-divid="#ingrid">Ingrid</li>
+            <li class="students-list" data-divid="#grace">Grace</li>
+            <li class="students-list" data-divid="#babette">Babette</li>
+            <li class="students-list" data-divid="#ella">Ella</li>
+            <li class="students-list" data-divid="#paris">Paris</li>
+          </ul>
         </li>
-        <li class="pure-menu-item">
-          <a href="https://github.com/studioelectronicart/studioelectronicart.github.io">GitHub repo</a>
+        <li>
+          <details>
+            <summary>More stuff!</summary>
+            <ul>
+              <li><a href="archive/index.html">Archive</a></li>
+              <li><a href="https://github.com/studioelectronicart/studioelectronicart.github.io">GitHub repository</a></li>
+              <li><a href="https://instagram.com/studioelectronicart">Instagram</a></li>
+            </ul>
+          </details>
         </li>
-        <li class="pure-menu-item">
-          <a href="https://instagram.com/studioelectronicart">Instagram</a>
-        </li>
-        <li class="pure-menu-item">
-          <a href="archive/index.html">Archive</a>
+        <li>
+          <details>
+            <summary>Copyright disclaimer</summary>
+            <ul>
+              <li>Disclaimer regarding work from external sources: <br>
+                  This student work has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author. All copyright material used remains copyright of the respective owners and has been used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No part of this work may be reproduced without consent of the original copyright owners. See code comments for references.
+              </li>
+            </ul>
+          </details>
         </li>
       </ul>
+      <br>This page uses <a href="https://jdan.github.io/98.css">98.css</a>, a design system created by <a href="https://github.com/jdan">Jordan Scales</a>. 98.css is <a href="https://mit-license.org/">MIT licensed</a>.
     </nav>
-  </section>
+  </aside>
 
-  <section class="main pure-g">
+  <main>
 
-    <div class="header-box pure-u-1">
-      <h1 class="">First Year Studio</h1>
-    </div>
+    <section id="top">
+      <h1>Studio Electronic Art</h1>
+      <p>Media Art at Curtin University, first year studio<br>
+      See more in the <a href="archive/index.html">archive</a>, <a href="https://github.com/studioelectronicart/studioelectronicart.github.io">GitHub repository</a>, or on <a href="https://instagram.com/studioelectronicart">Instagram</a>.</p>
+    </section>
 
-    <!--Tahlia-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Tahlia</h3></a>
-      </div>
-    </div>
+    <section id="students">
+      <div class="student" id="tahlia">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Tahlia</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/tahlia.png" alt="House in pixel art style" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/tahliamediaart/House/house.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/tahlia-->
 
-    <!--Annabelle-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Annabelle</h3></a>
-      </div>
-    </div>
+      <div class="student" id="annabelle">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Annabelle</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/annabelle.png" alt="Blue hyperlinked text: 'JANUARY 2021, FEBRUARY 2021, MARCH 2021, APRIL 2021, MAY 2021'" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/annabelle/ANNABELLEWEB.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/annabelle-->
 
-    <!--Lauren-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Lauren</h3></a>
-      </div>
-    </div>
+      <div class="student" id="lauren">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Lauren</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/lauren.jpg" alt="living area and kitchen with tall glass windows" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/laurenwebsite/livingroom.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/lauren-->
 
-    <!--Keziah-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Keziah</h3></a>
-      </div>
-    </div>
+      <div class="student" id="keziah">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Keziah</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/keziah.gif" alt="animated pixel art eye blinking" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/keziahwebsite/Blueeyes.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/keziah-->
 
-    <!--Lulu-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Lulu</h3></a>
-      </div>
-    </div>
+      <div class="student" id="lulu">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Lulu</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/lulu.png" alt="screen shot showing broken image link and text: 'Check it out... I made this in code / MY NAME IS LULU'" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/Lulusweb/website.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/lulu-->
 
-    <!--Isaac-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Isaac</h3></a>
-      </div>
-    </div>
+      <div class="student" id="isaac">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Isaac</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/isaac.png" alt="line drawing of muffin, possibly vegan" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/isaacwebsite/isaacwebsite.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/isaac-->
 
-    <!--Jaime-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Jaime</h3></a>
-      </div>
-    </div>
+      <div class="student" id="jaime">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Jaime</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/jaime.png" alt="white text on black background: 'When was the last time you cried? / Who knows you best? / What is the hardest thing that you have ever dealt with? / What are you most proud of about yourself?'" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/Jaime/onlinemagazine.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/jaime-->
 
-    <!--Lili-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Lili</h3></a>
-      </div>
-    </div>
+      <div class="student" id="lili">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Lili</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/lili.png" alt="Black text on peach background: 'Recently I discovered that sand is made up of broken down shell matter and quartz crystal. Quartz is known to create balance and restore healing energy so when I spend time at the beach it brings me a sense of calmness. The ocean is my happy place.'" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/lili/index.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/lili-->
 
-    <!--Monique-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Monique</h3></a>
-      </div>
-    </div>
+      <div class="student" id="monique">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Monique</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <!--<img src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'" style="width: 100%">-->
+            <button class="go-site coming-soon">Coming soon</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/monique-->
 
-    <!--Ingrid-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Ingrid</h3></a>
-      </div>
-    </div>
+      <div class="student" id="ingrid">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Ingrid</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/ingrid.png" alt="grayscale emoji painting of hand" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/ingrid/Website.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/ingrid-->
 
-    <!--Grace-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Grace</h3></a>
-      </div>
-    </div>
+      <div class="student" id="grace">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Grace</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <!--<img src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'" style="width: 100%">-->
+            <button class="go-site coming-soon">Coming soon</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/grace-->
 
-    <!--Babette-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Babette</h3></a>
-      </div>
-    </div>
+      <div class="student" id="babette">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Babette</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <!--<img src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'" style="width: 100%">-->
+            <button class="go-site coming-soon">Coming soon</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/babette-->
 
-    <!--Ella-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Ella</h3></a>
-      </div>
-    </div>
+      <div class="student" id="ella">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Ella</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <!--<img src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'" style="width: 100%">-->
+            <button class="go-site coming-soon">Coming soon</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/ella-->
 
-    <!--Paris-->
-    <div class="student-box pure-u-1 pure-u-md-1-3 pure-u-xl-1-4">
-      <div class="student-box-content">
-        <a href="#">
-          <img class="pure-img" src="img/templateimage.png" alt="Placeholder image. Text: 'STUDIO ELECTRONIC ART'">
-        </a>
-        <a href="#"><h3>Paris</h3></a>
-      </div>
-    </div>
+      <div class="student" id="paris">
+        <div class="window student-info" style="width: 500px">
+          <div class="title-bar">
+            <div class="title-bar-text">Paris</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close" class="student-close"></button>
+            </div>
+          </div><!--/title-bar-->
+          <div class="window-body">
+            <img src="img/paris.png" alt="pixelated, washed-out photograph of child's eyes, possibly smiling" style="width: 100%">
+            <button class="go-site" onclick="window.location.href='students/pariswebpage/pagetwo/pagetwo.html'">Visit page</button>
+          </div><!--/window-body-->
+        </div><!--/window-->
+      </div><!--/paris-->
 
-    <footer class="pure-u-1">
-      <p>Disclaimer regarding work from external sources: <br>
-        This student work has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author. All copyright material used remains copyright of the respective owners and has been used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No part of this work may be reproduced without consent of the original copyright owners. See code comments for references.</p>
+    </section><!--/students-->
+
+    <footer>
+
     </footer>
-  </section>
-
-
+  </main>
 </body>
 
 

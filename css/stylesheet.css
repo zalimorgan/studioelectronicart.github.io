@@ -1,83 +1,240 @@
-@charset "UTF-8";
-/* CSS Document */
-/* Do not edit this document */
 body {
-  background: radial-gradient(#acf6c8, #cfffe5);
-  font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+  padding: 0;
+  background: #c0c0c0;
 }
 
-.main {
-  margin: 0 auto;
+main {
+  width: 65rem;
+  margin-left: 300px;
+  margin-bottom: 60px;
 }
 
-.pure-g {
-  padding: 1em;
-  max-width: 1280px;
-  margin: 0 auto;
+aside {
+  width: 200px;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  /*bottom: 0;*/
+  padding: 8px;
+  /*height: 100%;*/
 }
 
-.pure-g > div {
-  box-sizing: border-box;
-}
-
-.header-box {
-  padding: 2em;
-}
-
-.header-box h1 {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 8vw;
-  overflow-wrap: break-word;
-}
-
-.student-box {
-  padding: 1.5em;
-  border: 8px solid rgba(0, 0, 0, 0);
-  margin: auto;
-  text-align:center;
-  background-color: rgba(0, 0, 0, 0);
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding;
-  background-clip: padding-box;
-  font-family: 'IBM Plex Mono', monospace;
-}
-
-.student-box-content {
-  margin: 0 auto;
-  display: inline-block;
-  font-family: 'IBM Plex Mono', monospace;
+aside .tree-view {
+/*  width: 100%;
+  overflow-y: scroll; */
 }
 
 footer {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  bottom: 0;
-  width: 100%;
-  padding: 15px;
+  position: absolute;
+  bottom: 0px;
 }
 
-a:link {
-  text-decoration: none;
-  color: #000;
-}
-a:visited {
-  text-decoration: none;
-  color: #000;
-}
-a:hover{
-  background-color:inherit;
-  text-decoration:underline;
-}
-a:active {
-  text-decoration: underline;
+h1 {
+  margin: 12px 0;
 }
 
+hr {
+  margin: 0;
+  border: none;
+  width: 400px;
+  height: 1px;
+  opacity: 0.5;
+  background: linear-gradient(
+    to right,
+    red 20%,
+    yellow 20%,
+    yellow 36%,
+    green 36%,
+    green 60%,
+    blue 60%,
+    blue 100%
+  );
+}
 
-.pure-menu-item {
-  font-family: 'IBM Plex Mono', monospace;
+h2 {
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h3,
+h4 {
+  /* Swap the margin for a top-padding so linking to this section
+     results in a better scroll position */
+  padding-top: 20px;
+  margin-top: 0;
   display: block;
-  padding: 1.2em;
+  flex: 0 0 180px;
 }
 
-.pure-menu-heading {
-  font-family: 'IBM Plex Mono', monospace;
+p {
+  max-width: 50rem;
+  line-height: 1.5;
 }
+
+.component {
+  display: flex;
+  margin-top: 24px;
+}
+
+blockquote {
+  margin: 0 0 20px;
+  padding: 20px;
+  background: #dfdfdf;
+}
+
+blockquote footer {
+  margin: 12px 0 0 12px;
+}
+
+.example {
+  margin: 16px 0;
+  padding: 12px 24px;
+  border-left: 1px solid #808080;
+}
+
+details {
+  margin-top: 12px;
+}
+
+summary {
+  user-select: none;
+  cursor: pointer;
+  display: inline;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary {
+  margin-bottom: 8px;
+}
+
+button.focused {
+  outline: 1px dotted #000000;
+  outline-offset: -4px;
+}
+
+button.active {
+  box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a,
+    inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+}
+
+@media (max-width: 480px) {
+  aside {
+    display: none;
+  }
+
+  main {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  h3,
+  h4 {
+    flex: 0;
+  }
+
+  .component {
+    display: block;
+    margin-top: 24px;
+  }
+
+  pre {
+    overflow-x: scroll;
+  }
+}
+
+.go-site {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.student {
+  position: absolute;
+}
+/*
+#tahlia {
+  left: 300px;
+  top: 200px;
+}
+
+#annabelle {
+  left: 330px;
+  top: 220px;
+}
+
+#lauren{
+  left: 360px;
+  top: 240px;
+}
+
+#keziah{
+  left: 390px;
+  top: 260px;
+}
+
+#lulu{
+  left: 420px;
+  top: 280px;
+}
+
+#isaac {
+  left: 450px;
+  top: 300px;
+}
+
+#jaime{
+  left: 480px;
+  top: 320px;
+}
+
+#lili {
+  left: 510px;
+  top: 340px;
+}
+
+#monique{
+  left: 540px;
+  top: 360px;
+}
+
+#ingrid{
+  left: 570px;
+  top: 380px;
+}
+
+#grace {
+  left: 600px;
+  top: 400px;
+}
+
+#babette {
+  left: 630px;
+  top: 420px;
+}
+
+#ella {
+  left: 660px;
+  top: 440px;
+}
+
+#paris {
+  left: 690px;
+  top: 460px;
+}
+*/
